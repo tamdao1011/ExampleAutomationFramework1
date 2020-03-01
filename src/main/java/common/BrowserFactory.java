@@ -40,6 +40,10 @@ public class BrowserFactory {
         driver.get(url);
     }
 
+    public static void refreshBrowser() {
+        driver.navigate().refresh();
+    }
+
     public static String getTitle() {
         return driver.getTitle();
     }
