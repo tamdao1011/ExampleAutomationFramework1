@@ -35,8 +35,8 @@ public class SignInFlyoutTest extends TestBase {
     @Step("Check the page title and the text exist")
     public static void verifySignInFlyout(String expectedTitle, WebElement textEle, String expectedText) {
         SoftAssert sortAssertion = new SoftAssert();
-        sortAssertion.assertTrue(verifyPageTitle(expectedTitle), "Wrong the page title");
         sortAssertion.assertTrue(verifyTextValue(textEle, expectedText), "Wrong the text value");
+        sortAssertion.assertTrue(verifyPageTitle(expectedTitle), "Wrong the page title");
         sortAssertion.assertAll();
     }
 
