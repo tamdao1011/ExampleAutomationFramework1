@@ -32,15 +32,20 @@ public class HomePage {
 
     @Step("Navigate to the Sign In/Register page from the Home page")
     public static void navigateToSignInOrRegisterPageFromHomePage(flyoutLocation flyoutLocation, signInOrRegister signInOrRegister) {
+        if (!checkHomePageExist())
+            navigateToHomePage();
         setValueForElements();
         if (flyoutLocation.equals(HomePage.flyoutLocation.SignInFlyout)) {
-            while (!checkElementExist(SIGN_IN_FLYOUT)) {
+            while (!checkElementExist(SIGN_IN_FLYOUT))
                 refreshBrowser();
-            }
             dragMouseAndClick(flyoutLocation, signInOrRegister);
         } else if (flyoutLocation.equals(HomePage.flyoutLocation.AccountListFlyout))
             dragMouseAndClick(flyoutLocation, signInOrRegister);
         else throw new IllegalStateException("Invalid the location of Sign In button: " + flyoutLocation);
+    }
+
+    public static boolean checkHomePageExist() {
+        return verifyPageTitle("Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more");
     }
 
     private static void dragMouseAndClick(flyoutLocation flyoutLocation, signInOrRegister signInOrRegister) {
