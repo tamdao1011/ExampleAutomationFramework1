@@ -40,6 +40,10 @@ public class BrowserFactory {
         driver.manage().window().maximize();
     }
 
+    public static WebDriver getDriver() {
+        return driver;
+    }
+
     public static void visit(String url) {
         driver.get(url);
     }
