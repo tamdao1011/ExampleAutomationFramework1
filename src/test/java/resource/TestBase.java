@@ -3,13 +3,13 @@ package resource;
 import io.qameta.allure.Step;
 import org.testng.annotations.*;
 
-import static common.BrowserFactory.closeBrowser;
+import static common.BrowserFactory.quitDriver;
 import static common.CommonFunctions.*;
 
 public class TestBase {
 
     @Parameters({"browser", "url"})
-    @BeforeMethod
+    @BeforeClass
     @Step("Navigate to the Home page")
     public void setup(String browser, String url) {
         setGlobalVariables(browser, url);
@@ -19,7 +19,7 @@ public class TestBase {
     @AfterSuite
     @Step("Close the browser")
     public void tearDown() {
-        closeBrowser();
+        quitDriver();
     }
 
 }
