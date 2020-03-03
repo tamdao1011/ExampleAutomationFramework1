@@ -2,8 +2,24 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
 <suite name="Suite" parallel="false">
-    <test name="Test">
+    <test name="Chrome">
         <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://www.amazon.com/"/>
+        <classes>
+            <class name="test.SignInFlyoutTest"/>
+            <class name="test.AccountListFlyoutTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Firefox">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="url" value="https://www.amazon.com/"/>
+        <classes>
+            <class name="test.SignInFlyoutTest"/>
+            <class name="test.AccountListFlyoutTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Edge">
+        <parameter name="browser" value="edge"/>
         <parameter name="url" value="https://www.amazon.com/"/>
         <classes>
             <class name="test.SignInFlyoutTest"/>
