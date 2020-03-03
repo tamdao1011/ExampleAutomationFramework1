@@ -1,9 +1,16 @@
 package common;
 
 import io.qameta.allure.Step;
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.io.File;
 
 import static common.BrowserFactory.*;
 
@@ -29,13 +36,15 @@ public class CommonFunctions {
     //Convert WebElement type to By type
     public static By toByVal(WebElement we) {
         //Get string of WebElement
-        //Split by "->"
-        //Delete the "]" character
-        //Split by ":"
-        String[] data = we.toString().split(" -> ")[1].replace("]", "").split(": ");
+        String stringWe = we.toString();
+        //Split by "->" and get the second one
+        stringWe = stringWe.split(" -> ")[1];
+        //Delete the last "]" character and split by ":"
+        int length = stringWe.length();
+        String[] arrayWe = stringWe.substring(0, length - 1).split(":");
         //Return By type
-        String locator = data[0];
-        String term = data[1];
+        String locator = arrayWe[0];
+        String term = arrayWe[1];
         switch (locator) {
             case "xpath":
                 return By.xpath(term);
@@ -47,10 +56,12 @@ public class CommonFunctions {
                 return By.tagName(term);
             case "name":
                 return By.name(term);
-            case "link text":
-                return By.linkText(term);
             case "class name":
                 return By.className(term);
+            case "link text":
+                return By.linkText(term);
+            case "partial link text":
+                return By.partialLinkText(term);
         }
         return (By) we;
     }
@@ -61,6 +72,9 @@ public class CommonFunctions {
     }
 
     public static void click(WebElement we) {
+        //Have to use WebDriverWait due to implicitlyWait/pageLoadTimeout only work for Chrome
+        WebDriverWait wait = new WebDriverWait(driver, 15);
+        wait.until(ExpectedConditions.elementToBeClickable(we));
         Actions actions = new Actions(driver);
         actions.click(we).perform();
     }
@@ -93,4 +107,10 @@ public class CommonFunctions {
         return getText(we).matches(expectedText);
     }
 
+    public static void takeScreenShot(String filePath) throws Exception {
+        File screenFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        String timeStamp = System.currentTimeMillis() / 1000 + "";
+        File destFile = new File("./src/test/java/reports/screenshot/" + filePath + "-" + timeStamp + ".png");
+        FileUtils.copyFile(screenFile, destFile);
+    }
 }
