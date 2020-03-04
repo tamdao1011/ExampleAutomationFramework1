@@ -3,5 +3,5 @@ Created by: Tam Dao
 Programming language: Java
 Software project management and comprehension tool: Apache Maven
 Testing framework: Selenium, TestNG
-Testing report: TestNG, Allure
-Web Driver Manager:  Bonigarcia
+Web Driver Manager: Bonigarcia
+Testing report: Allure, Excel (Apache POI)
