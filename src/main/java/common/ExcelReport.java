@@ -16,13 +16,17 @@ import java.util.Calendar;
 import java.util.HashMap;
 
 public class ExcelReport implements ITestListener {
-    public int numberPassedTests = 0;
-    public int numberFailedTests = 0;
-    public int numberSkipTest = 0;
-    public long durations = 0;
+    public int numberPassedTests;
+    public int numberFailedTests;
+    public int numberSkipTest;
+    public long durations;
     public HashMap<String, HashMap<String, String>> suiteResult = new HashMap<>();
 
     public void onStart(ITestContext context) {
+        numberPassedTests = 0;
+        numberFailedTests = 0;
+        numberSkipTest = 0;
+        durations = 0;
         System.out.println("On start of test " + context.getName());
     }
 
@@ -82,7 +86,7 @@ public class ExcelReport implements ITestListener {
         //Input detail results
         Row detailRow = sheet.createRow(7);
         createAndSetCellStyleValue(detailRow.createCell(0), defaultStyle, "No", null);
-        createAndSetCellStyleValue(detailRow.createCell(1), defaultStyle, "Feature", null);
+        createAndSetCellStyleValue(detailRow.createCell(1), defaultStyle, "Browser", null);
         createAndSetCellStyleValue(detailRow.createCell(2), defaultStyle, "TC Name", null);
         createAndSetCellStyleValue(detailRow.createCell(3), defaultStyle, "Result", null);
         createAndSetCellStyleValue(detailRow.createCell(4), defaultStyle, "Error Logs", null);
