@@ -1,4 +1,4 @@
-package test;
+package test.homepage;
 
 import resource.TestBase;
 import io.qameta.allure.*;
@@ -14,7 +14,7 @@ import static pages.HomePage.navigateToSignInOrRegisterPageFromHomePage;
 
 public class SignInFlyoutTest extends TestBase {
 
-    @Severity(SeverityLevel.BLOCKER)
+    @Severity(SeverityLevel.NORMAL)
     @Story("Verify the Sign In fly out")
     @Description("SI01_Verify the Sign In button on the Sign In fly out after navigating for the first time")
     @Test
@@ -23,7 +23,7 @@ public class SignInFlyoutTest extends TestBase {
         verifySignInFlyout("Amazon Sign-In", SignInPage.SIGN_IN_TEXT, "Sign-In");
     }
 
-    @Severity(SeverityLevel.BLOCKER)
+    @Severity(SeverityLevel.NORMAL)
     @Story("Verify the Sign In fly out")
     @Description("SI02_Verify the Start here link on the Sign In fly out after navigating for the first time")
     @Test

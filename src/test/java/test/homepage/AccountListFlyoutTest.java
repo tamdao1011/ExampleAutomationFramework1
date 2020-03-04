@@ -1,4 +1,4 @@
-package test;
+package test.homepage;
 
 import resource.TestBase;
 import io.qameta.allure.*;
@@ -11,7 +11,7 @@ import static pages.HomePage.navigateToSignInOrRegisterPageFromHomePage;
 
 public class AccountListFlyoutTest extends TestBase {
 
-    @Severity(SeverityLevel.BLOCKER)
+    @Severity(SeverityLevel.NORMAL)
     @Story("Verify the Account List fly out")
     @Description("SI03_Verify the Sign In button on the Account List fly out")
     @Test
@@ -20,7 +20,7 @@ public class AccountListFlyoutTest extends TestBase {
         SignInFlyoutTest.verifySignInFlyout("Amazon Sign-In", SignInPage.SIGN_IN_TEXT, "Sign-In");
     }
 
-    @Severity(SeverityLevel.BLOCKER)
+    @Severity(SeverityLevel.NORMAL)
     @Story("Verify the Account List fly out")
     @Description("SI04_Verify the Start here link on the Account List fly out")
     @Test
