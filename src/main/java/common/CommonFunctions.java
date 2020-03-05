@@ -34,17 +34,17 @@ public class CommonFunctions {
     }
 
     //Convert WebElement type to By type
-    public static By toByVal(WebElement we) {
+    public static By toByVal(WebElement ele) {
         //Get string of WebElement
-        String stringWe = we.toString();
+        String stringEle = ele.toString();
         //Split by "->" and get the second one
-        stringWe = stringWe.split(" -> ")[1];
+        stringEle = stringEle.split(" -> ")[1];
         //Delete the last "]" character and split by ":"
-        int length = stringWe.length();
-        String[] arrayWe = stringWe.substring(0, length - 1).split(":");
+        int length = stringEle.length();
+        String[] arrayEle = stringEle.substring(0, length - 1).split(":");
         //Return By type
-        String locator = arrayWe[0];
-        String term = arrayWe[1];
+        String locator = arrayEle[0];
+        String term = arrayEle[1];
         switch (locator) {
             case "xpath":
                 return By.xpath(term);
@@ -63,7 +63,7 @@ public class CommonFunctions {
             case "partial link text":
                 return By.partialLinkText(term);
         }
-        return (By) we;
+        return (By) ele;
     }
 
     //Create basic Web Element functions
@@ -71,16 +71,21 @@ public class CommonFunctions {
         return driver.findElement(by);
     }
 
-    public static void click(WebElement we) {
+    public static void click(WebElement ele) {
         //Have to use WebDriverWait due to implicitlyWait/pageLoadTimeout only work for Chrome
         WebDriverWait wait = new WebDriverWait(driver, 15);
-        wait.until(ExpectedConditions.elementToBeClickable(we));
+        wait.until(ExpectedConditions.elementToBeClickable(ele));
         Actions actions = new Actions(driver);
-        actions.click(we).perform();
+        actions.click(ele).perform();
     }
 
-    public static boolean checkElementExist(WebElement we) {
-        return driver.findElements(toByVal(we)).size() > 0;
+    public static void fill(WebElement ele, String text) {
+        Actions actions = new Actions(driver);
+        actions.sendKeys(ele, text).perform();
+    }
+
+    public static boolean checkElementExist(WebElement ele) {
+        return driver.findElements(toByVal(ele)).size() > 0;
     }
 
     public static void dragMouse(WebElement target) {
@@ -88,8 +93,8 @@ public class CommonFunctions {
         actions.moveToElement(target).perform();
     }
 
-    public static String getText(WebElement we) {
-        return driver.findElement(toByVal(we)).getText();
+    public static String getText(WebElement ele) {
+        return driver.findElement(toByVal(ele)).getText();
     }
 
     //Create basic verify functions
@@ -101,10 +106,10 @@ public class CommonFunctions {
     }
 
     @Step("Verify the text value")
-    public static boolean verifyTextValue(WebElement we, String expectedText) {
+    public static boolean verifyTextValue(WebElement ele, String expectedText) {
         System.out.println("The expected text: " + expectedText);
-        System.out.println("The actual text: " + getText(we));
-        return getText(we).matches(expectedText);
+        System.out.println("The actual text: " + getText(ele));
+        return getText(ele).matches(expectedText);
     }
 
     public static void takeScreenShot(String filePath) throws Exception {
