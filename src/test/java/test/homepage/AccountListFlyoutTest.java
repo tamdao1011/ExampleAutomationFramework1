@@ -5,7 +5,7 @@ import io.qameta.allure.*;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.RegistrationPage;
-import pages.SignInPage;
+import pages.SignInPage_Account;
 
 import static pages.HomePage.navigateToSignInOrRegisterPageFromHomePage;
 
@@ -17,7 +17,7 @@ public class AccountListFlyoutTest extends TestBase {
     @Test
     public void verifySignInButtonOnAccountListFlyout() {
         navigateToSignInOrRegisterPageFromHomePage(HomePage.flyoutLocation.AccountListFlyout, HomePage.signInOrRegister.SignIn);
-        SignInFlyoutTest.verifySignInFlyout("Amazon Sign-In", SignInPage.SIGN_IN_TEXT, "Sign-In");
+        SignInFlyoutTest.verifySignInFlyout("Amazon Sign-In", SignInPage_Account.SIGN_IN_TEXT, "Sign-In");
     }
 
     @Severity(SeverityLevel.NORMAL)

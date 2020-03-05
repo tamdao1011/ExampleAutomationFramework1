@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pages.HomePage;
 import pages.RegistrationPage;
-import pages.SignInPage;
+import pages.SignInPage_Account;
 
 import static common.CommonFunctions.*;
 import static pages.HomePage.navigateToSignInOrRegisterPageFromHomePage;
@@ -20,7 +20,7 @@ public class SignInFlyoutTest extends TestBase {
     @Test
     public void verifySignInButtonOnSignInFlyout() {
         navigateToSignInOrRegisterPageFromHomePage(HomePage.flyoutLocation.SignInFlyout, HomePage.signInOrRegister.SignIn);
-        verifySignInFlyout("Amazon Sign-In", SignInPage.SIGN_IN_TEXT, "Sign-In");
+        verifySignInFlyout("Amazon Sign-In", SignInPage_Account.SIGN_IN_TEXT, "Sign-In");
     }
 
     @Severity(SeverityLevel.NORMAL)
