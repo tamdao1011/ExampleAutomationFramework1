@@ -9,24 +9,24 @@
         <parameter name="browser" value="chrome"/>
         <parameter name="url" value="https://www.amazon.com/"/>
         <classes>
-            <class name="test.SignInFlyoutTest"/>
-            <class name="test.AccountListFlyoutTest"/>
+            <class name="test.homepage.NavigateToRegistrationPageTest"/>
+            <class name="test.homepage.NavigateToSignInPageTest"/>
         </classes>
     </test> <!-- Test -->
     <test name="Firefox">
         <parameter name="browser" value="firefox"/>
         <parameter name="url" value="https://www.amazon.com/"/>
         <classes>
-            <class name="test.SignInFlyoutTest"/>
-            <class name="test.AccountListFlyoutTest"/>
+            <class name="test.homepage.NavigateToRegistrationPageTest"/>
+            <class name="test.homepage.NavigateToSignInPageTest"/>
         </classes>
     </test> <!-- Test -->
     <test name="Edge">
         <parameter name="browser" value="edge"/>
         <parameter name="url" value="https://www.amazon.com/"/>
         <classes>
-            <class name="test.SignInFlyoutTest"/>
-            <class name="test.AccountListFlyoutTest"/>
+            <class name="test.homepage.NavigateToRegistrationPageTest"/>
+            <class name="test.homepage.NavigateToSignInPageTest"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

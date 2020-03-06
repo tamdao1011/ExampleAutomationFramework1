@@ -1,6 +1,7 @@
 package common;
 
 import org.jetbrains.annotations.NotNull;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -8,12 +9,14 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
 public class BrowserFactory {
 
     public static WebDriver driver;
+    private static int timeInSeconds = 10;
 
     //Create basic browser functions
     public static void launchBrowser(@NotNull String browserName) {
@@ -34,8 +37,8 @@ public class BrowserFactory {
         } else {
             System.err.println("Browser " + browserName + " is not defined");
         }
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(timeInSeconds, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(timeInSeconds, TimeUnit.SECONDS);
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
     }
@@ -46,6 +49,11 @@ public class BrowserFactory {
 
     public static void visit(String url) {
         driver.get(url);
+    }
+
+    public static void waitForPageLoadComplete() {
+        new WebDriverWait(driver, timeInSeconds).until(
+                webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
     }
 
     public static void refreshBrowser() {

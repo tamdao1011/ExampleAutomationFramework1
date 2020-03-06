@@ -1,0 +1,25 @@
+{
+  "uuid": "0dc77262-3376-4abb-9cb8-4ab5ac962abc",
+  "name": "resource.TestBase.start",
+  "children": [
+    "46024e72-8592-41a5-9329-9e1feb638007"
+  ],
+  "description": "",
+  "befores": [
+    {
+      "name": "start",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1583530416114,
+      "stop": 1583530416805
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1583530416114,
+  "stop": 1583530416805
+}

@@ -1,0 +1,19 @@
+{
+  "uuid": "89d75cbd-0757-4c16-b689-9972ec390e2b",
+  "name": "test.homepage.NavigateToSignInPageTest",
+  "children": [
+    "3252efcb-8909-44e5-97dd-1eb29643240d",
+    "c9932ef4-f6b0-430e-882c-ce03c818069b",
+    "b6b4d954-4cd2-4765-8ea2-6cc3ffae4d00",
+    "401663b4-e223-4506-b640-ca5009b08a2b",
+    "db53fde9-27a6-441f-af97-0267d1f02673",
+    "3dd66fdf-22f3-43f3-81d4-8321d1e19403",
+    "736eb7bd-f1e6-4a82-aaf6-478dc5e3977f",
+    "766b96ba-4b56-451a-bb66-205e1333ac34"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1583530352337,
+  "stop": 1583530414539
+}

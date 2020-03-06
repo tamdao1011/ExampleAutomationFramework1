@@ -2,10 +2,7 @@ package common;
 
 import io.qameta.allure.Step;
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -77,6 +74,21 @@ public class CommonFunctions {
         wait.until(ExpectedConditions.elementToBeClickable(ele));
         Actions actions = new Actions(driver);
         actions.click(ele).perform();
+    }
+
+    public static void scrollHorizontally(WebElement ele) {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].scrollIntoView();", ele);
+    }
+
+    public static void scrollAndClick(WebElement ele) {
+        scrollHorizontally(ele);
+        click(ele);
+    }
+
+    public static void pressKey(Keys key) {
+        Actions actions = new Actions(driver);
+        actions.sendKeys(key).perform();
     }
 
     public static void fill(WebElement ele, String text) {

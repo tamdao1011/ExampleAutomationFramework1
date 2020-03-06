@@ -1,0 +1,173 @@
+{
+  "name": "verifySignInPageOpen4_SignInSecurelyButton",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "SI04_Verify the Sign In page opens after clicking on the Sign In Securely button",
+  "steps": [
+    {
+      "name": "Navigate to the Sign In/Registration page from the Home page",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Verify the page title",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "expectedTitle",
+              "value": "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
+            }
+          ],
+          "start": 1583530336678,
+          "stop": 1583530336787
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "location",
+          "value": "SignInSecurelyButton"
+        },
+        {
+          "name": "signInOrRegister",
+          "value": "null"
+        }
+      ],
+      "start": 1583530336678,
+      "stop": 1583530338469
+    },
+    {
+      "name": "Check the page title and the text exist",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Verify the text value",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "ele",
+              "value": "[[ChromeDriver: chrome on WINDOWS (a4c22677a8d39361c9651c3de158760b)] -> css selector: h1.a-spacing-small]"
+            },
+            {
+              "name": "expectedText",
+              "value": "Sign-In"
+            }
+          ],
+          "start": 1583530338470,
+          "stop": 1583530338514
+        },
+        {
+          "name": "Verify the page title",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "expectedTitle",
+              "value": "Amazon Sign-In"
+            }
+          ],
+          "start": 1583530338514,
+          "stop": 1583530338522
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "expectedTitle",
+          "value": "Amazon Sign-In"
+        },
+        {
+          "name": "textEle",
+          "value": "[[ChromeDriver: chrome on WINDOWS (a4c22677a8d39361c9651c3de158760b)] -> css selector: h1.a-spacing-small]"
+        },
+        {
+          "name": "expectedText",
+          "value": "Sign-In"
+        }
+      ],
+      "start": 1583530338469,
+      "stop": 1583530338522
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "url",
+      "value": "https://www.amazon.com/"
+    },
+    {
+      "name": "browser",
+      "value": "chrome"
+    }
+  ],
+  "start": 1583530336678,
+  "stop": 1583530338522,
+  "uuid": "8438cd67-b3c2-4d0b-8ed0-d07402f2e55e",
+  "historyId": "2ab0b7907e32dfac7000d77e0e2dee89",
+  "fullName": "test.homepage.NavigateToSignInPageTest.verifySignInPageOpen4_SignInSecurelyButton",
+  "labels": [
+    {
+      "name": "package",
+      "value": "test.homepage.NavigateToSignInPageTest"
+    },
+    {
+      "name": "testClass",
+      "value": "test.homepage.NavigateToSignInPageTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "verifySignInPageOpen4_SignInSecurelyButton"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Suite"
+    },
+    {
+      "name": "suite",
+      "value": "Chrome"
+    },
+    {
+      "name": "subSuite",
+      "value": "test.homepage.NavigateToSignInPageTest"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-4P5DUP2"
+    },
+    {
+      "name": "thread",
+      "value": "50340@DESKTOP-4P5DUP2.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "story",
+      "value": "Verify the navigation to Sign In page"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": []
+}
