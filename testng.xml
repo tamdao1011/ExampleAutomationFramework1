@@ -11,6 +11,7 @@
         <classes>
             <class name="test.homepage.NavigateToRegistrationPageTest"/>
             <class name="test.homepage.NavigateToSignInPageTest"/>
+            <class name="test.registration.RegistrationTest"/>
         </classes>
     </test> <!-- Test -->
     <test name="Firefox">
@@ -19,6 +20,7 @@
         <classes>
             <class name="test.homepage.NavigateToRegistrationPageTest"/>
             <class name="test.homepage.NavigateToSignInPageTest"/>
+            <class name="test.registration.RegistrationTest"/>
         </classes>
     </test> <!-- Test -->
     <test name="Edge">
@@ -27,6 +29,7 @@
         <classes>
             <class name="test.homepage.NavigateToRegistrationPageTest"/>
             <class name="test.homepage.NavigateToSignInPageTest"/>
+            <class name="test.registration.RegistrationTest"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

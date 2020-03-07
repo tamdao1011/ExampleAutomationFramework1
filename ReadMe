@@ -1,6 +1,7 @@
 ===Example Automation Framework===
 Created by: Tam Dao
 Programming language: Java
+IDEA: IntelliJ
 Software project management and comprehension tool: Apache Maven
 Testing framework: Selenium, TestNG
 Web Driver Manager: Bonigarcia

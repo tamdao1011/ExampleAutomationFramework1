@@ -9,8 +9,8 @@ import pages.HomePage;
 import pages.RegistrationPage;
 import resource.TestBase;
 
+import static common.CommonFunctions.verifyPageDisplay;
 import static pages.HomePage.navigateToSignInOrRegistrationPageFromHomePage;
-import static test.homepage.NavigateToSignInPageTest.verifySignInFlyout;
 
 public class NavigateToRegistrationPageTest extends TestBase {
 
@@ -20,7 +20,7 @@ public class NavigateToRegistrationPageTest extends TestBase {
     @Test
     public void verifyRegistrationPageOpen1_StartHereLinkOnSignInFlyout() {
         navigateToSignInOrRegistrationPageFromHomePage(HomePage.location.SignInFlyout, HomePage.signInOrRegister.Register);
-        verifySignInFlyout("Amazon Registration", RegistrationPage.CREATE_ACCOUNT_TEXT, "Create account");
+        verifyPageDisplay("Amazon Registration", RegistrationPage.CREATE_ACCOUNT_TEXT, "Create account");
     }
 
     @Severity(SeverityLevel.NORMAL)
@@ -29,7 +29,7 @@ public class NavigateToRegistrationPageTest extends TestBase {
     @Test
     public void verifyRegistrationPageOpen2_StartHereLinkOnAccountListFlyout() {
         navigateToSignInOrRegistrationPageFromHomePage(HomePage.location.AccountListFlyout, HomePage.signInOrRegister.Register);
-        verifySignInFlyout("Amazon Registration", RegistrationPage.CREATE_ACCOUNT_TEXT, "Create account");
+        verifyPageDisplay("Amazon Registration", RegistrationPage.CREATE_ACCOUNT_TEXT, "Create account");
     }
 
 }

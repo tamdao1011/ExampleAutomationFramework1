@@ -6,6 +6,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.asserts.SoftAssert;
 
 import java.io.File;
 
@@ -122,6 +123,14 @@ public class CommonFunctions {
         System.out.println("The expected text: " + expectedText);
         System.out.println("The actual text: " + getText(ele));
         return getText(ele).matches(expectedText);
+    }
+
+    @Step("Check the page title and the text exist")
+    public static void verifyPageDisplay(String expectedTitle, WebElement textEle, String expectedText) {
+        SoftAssert sortAssertion = new SoftAssert();
+        sortAssertion.assertTrue(verifyTextValue(textEle, expectedText), "Wrong the text value");
+        sortAssertion.assertTrue(verifyPageTitle(expectedTitle), "Wrong the page title");
+        sortAssertion.assertAll();
     }
 
     public static void takeScreenShot(String filePath) throws Exception {
