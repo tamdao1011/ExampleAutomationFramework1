@@ -1,0 +1,36 @@
+{
+  "uuid": "b87b0d2e-b0f6-4887-8d69-722a0bbec78b",
+  "name": "resource.TestBase.start",
+  "children": [
+    "63188de9-fa3d-4bbe-94c0-1c8928062542"
+  ],
+  "description": "",
+  "befores": [
+    {
+      "name": "start",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [
+        {
+          "name": "Navigate to the Home page",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1583700006974,
+          "stop": 1583700007404
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1583700006973,
+      "stop": 1583700007404
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1583700006973,
+  "stop": 1583700007404
+}

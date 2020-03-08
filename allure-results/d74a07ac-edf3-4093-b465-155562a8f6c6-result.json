@@ -1,0 +1,130 @@
+{
+  "name": "InvalidValues3_EmptyEmail",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "RF03_Verify the invalid input - empty email",
+  "steps": [
+    {
+      "name": "Navigate to the Sign In/Registration page from the Home page",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Verify the page title",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "expectedTitle",
+              "value": "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
+            }
+          ],
+          "start": 1583700016219,
+          "stop": 1583700016248
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "location",
+          "value": "AccountListFlyout"
+        },
+        {
+          "name": "signInOrRegister",
+          "value": "Register"
+        }
+      ],
+      "start": 1583700016219,
+      "stop": 1583700019377
+    },
+    {
+      "name": "Verify the warning messages exist",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "warningElement",
+          "value": "[[ChromeDriver: chrome on WINDOWS (17024e606a6249dc6d40c505398e80c2)] -> xpath: //div[contains (text(), \"Enter your email\")]]"
+        }
+      ],
+      "start": 1583700020248,
+      "stop": 1583700020282
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "url",
+      "value": "https://www.amazon.com/"
+    },
+    {
+      "name": "browser",
+      "value": "chrome"
+    }
+  ],
+  "start": 1583700016219,
+  "stop": 1583700020282,
+  "uuid": "d74a07ac-edf3-4093-b465-155562a8f6c6",
+  "historyId": "32a3e7a486d71b4654bea0dc5362af83",
+  "fullName": "test.registration.RegistrationTest_warningMessage.InvalidValues3_EmptyEmail",
+  "labels": [
+    {
+      "name": "package",
+      "value": "test.registration.RegistrationTest_warningMessage"
+    },
+    {
+      "name": "testClass",
+      "value": "test.registration.RegistrationTest_warningMessage"
+    },
+    {
+      "name": "testMethod",
+      "value": "InvalidValues3_EmptyEmail"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Suite"
+    },
+    {
+      "name": "suite",
+      "value": "Chrome"
+    },
+    {
+      "name": "subSuite",
+      "value": "test.registration.RegistrationTest_warningMessage"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-4P5DUP2"
+    },
+    {
+      "name": "thread",
+      "value": "22876@DESKTOP-4P5DUP2.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "story",
+      "value": "Verify the Registration function"
+    },
+    {
+      "name": "severity",
+      "value": "minor"
+    }
+  ],
+  "links": []
+}

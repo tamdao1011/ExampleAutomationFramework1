@@ -1,0 +1,13 @@
+{
+  "uuid": "b98e61b3-b630-490a-a942-5235e788c465",
+  "name": "test.homepage.NavigateToRegistrationPageTest",
+  "children": [
+    "bdb51c5a-5dd2-4486-9318-1d7f20d5d74f",
+    "bb283470-e57d-4074-bf62-c7e9db1828bf"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1583699960720,
+  "stop": 1583700039356
+}

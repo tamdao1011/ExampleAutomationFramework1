@@ -63,7 +63,7 @@ public class HomePage {
 
         switch (location) {
             case SignInFlyout:
-                while (!checkElementExist(SIGN_IN_FLYOUT))
+                while (!checkElementDisplay(SIGN_IN_FLYOUT))
                     refreshBrowser();
                 setValueForElements();
                 scrollDragMouseAndClick(location, signInOrRegister);

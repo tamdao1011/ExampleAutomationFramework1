@@ -1,0 +1,83 @@
+{
+  "uuid": "9a6809d4-d0a2-4271-911b-fe03954e3ae3",
+  "name": "Firefox",
+  "children": [
+    "9d0c04a6-498f-4be1-a39b-41219c1b3d55",
+    "2e8d3f17-4c1b-410c-8ca0-b84d895d229e",
+    "13f95708-0d37-4b12-9ff1-1746f173cc43",
+    "bac81432-35b0-4303-9357-76bd921ce9cf",
+    "807bf70a-5640-4af7-8819-c55e00d0984e",
+    "09bb4c06-85b5-4e23-95b6-21446ceb8090",
+    "0d15c532-d4ba-4185-a06e-d11a19a37c5a",
+    "1dd68062-e709-42dc-8da9-da6835e81618",
+    "afa6b128-c2ce-44ae-8af7-07f58dbad71e",
+    "d8564639-1b3e-4a27-81e9-71dc93039625",
+    "80a7b6b7-e286-4b6b-927c-ddf292cf1d5d",
+    "1c11c564-bb98-452f-87de-30d6e0a9686f",
+    "0ef80946-0e60-4eb9-bd92-9de68a29dcb6",
+    "d87407ce-8516-43d0-ae2b-7a53dfab1ed0",
+    "1699b810-72cb-44f4-9b1b-83c050ccf630",
+    "d0cd5851-1d51-484f-b5bc-6a6c420ea4d0",
+    "4b371076-246b-4f20-b230-15f21cbd37d3"
+  ],
+  "befores": [
+    {
+      "name": "setup",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [
+        {
+          "name": "Launch the browser",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "browser",
+              "value": "firefox"
+            },
+            {
+              "name": "url",
+              "value": "https://www.amazon.com/"
+            }
+          ],
+          "start": 1583700039361,
+          "stop": 1583700043506
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1583700039360,
+      "stop": 1583700043507
+    }
+  ],
+  "afters": [
+    {
+      "name": "tearDown",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [
+        {
+          "name": "Close the browser",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1583700146357,
+          "stop": 1583700159067
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1583700146357,
+      "stop": 1583700159067
+    }
+  ],
+  "links": [],
+  "start": 1583700039360,
+  "stop": 1583700159103
+}

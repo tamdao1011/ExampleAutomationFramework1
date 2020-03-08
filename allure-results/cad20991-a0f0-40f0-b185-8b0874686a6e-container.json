@@ -1,0 +1,25 @@
+{
+  "uuid": "cad20991-a0f0-40f0-b185-8b0874686a6e",
+  "name": "resource.TestBase.clear",
+  "children": [
+    "33b3db8b-fb81-427d-87c9-cd595b473fc3"
+  ],
+  "description": "",
+  "befores": [],
+  "afters": [
+    {
+      "name": "clear",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1583700217777,
+      "stop": 1583700217777
+    }
+  ],
+  "links": [],
+  "start": 1583700217777,
+  "stop": 1583700217777
+}

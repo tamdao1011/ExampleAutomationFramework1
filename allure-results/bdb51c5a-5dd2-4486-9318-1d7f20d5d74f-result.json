@@ -1,0 +1,173 @@
+{
+  "name": "verifyRegistrationPageOpen1_StartHereLinkOnSignInFlyout",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "RE01_Verify the Registration page opens after clicking on the Start Here link of the Sign In fly out",
+  "steps": [
+    {
+      "name": "Navigate to the Sign In/Registration page from the Home page",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Verify the page title",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "expectedTitle",
+              "value": "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
+            }
+          ],
+          "start": 1583699974551,
+          "stop": 1583699974697
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "location",
+          "value": "SignInFlyout"
+        },
+        {
+          "name": "signInOrRegister",
+          "value": "Register"
+        }
+      ],
+      "start": 1583699974546,
+      "stop": 1583699977929
+    },
+    {
+      "name": "Check the page title and the text exist",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Verify the text value",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "ele",
+              "value": "[[ChromeDriver: chrome on WINDOWS (17024e606a6249dc6d40c505398e80c2)] -> css selector: h1.a-spacing-small]"
+            },
+            {
+              "name": "expectedText",
+              "value": "Create account"
+            }
+          ],
+          "start": 1583699978034,
+          "stop": 1583699978080
+        },
+        {
+          "name": "Verify the page title",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "expectedTitle",
+              "value": "Amazon Registration"
+            }
+          ],
+          "start": 1583699978084,
+          "stop": 1583699978097
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "expectedTitle",
+          "value": "Amazon Registration"
+        },
+        {
+          "name": "textEle",
+          "value": "[[ChromeDriver: chrome on WINDOWS (17024e606a6249dc6d40c505398e80c2)] -> css selector: h1.a-spacing-small]"
+        },
+        {
+          "name": "expectedText",
+          "value": "Create account"
+        }
+      ],
+      "start": 1583699978029,
+      "stop": 1583699978097
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "url",
+      "value": "https://www.amazon.com/"
+    },
+    {
+      "name": "browser",
+      "value": "chrome"
+    }
+  ],
+  "start": 1583699974524,
+  "stop": 1583699978102,
+  "uuid": "bdb51c5a-5dd2-4486-9318-1d7f20d5d74f",
+  "historyId": "79cf74179695f8de8712fc163b14e55",
+  "fullName": "test.homepage.NavigateToRegistrationPageTest.verifyRegistrationPageOpen1_StartHereLinkOnSignInFlyout",
+  "labels": [
+    {
+      "name": "package",
+      "value": "test.homepage.NavigateToRegistrationPageTest"
+    },
+    {
+      "name": "testClass",
+      "value": "test.homepage.NavigateToRegistrationPageTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "verifyRegistrationPageOpen1_StartHereLinkOnSignInFlyout"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Suite"
+    },
+    {
+      "name": "suite",
+      "value": "Chrome"
+    },
+    {
+      "name": "subSuite",
+      "value": "test.homepage.NavigateToRegistrationPageTest"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-4P5DUP2"
+    },
+    {
+      "name": "thread",
+      "value": "22876@DESKTOP-4P5DUP2.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "story",
+      "value": "Verify the navigation to the Registration page"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": []
+}

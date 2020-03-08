@@ -97,8 +97,8 @@ public class CommonFunctions {
         actions.sendKeys(ele, text).perform();
     }
 
-    public static boolean checkElementExist(WebElement ele) {
-        return driver.findElements(toByVal(ele)).size() > 0;
+    public static boolean checkElementDisplay(WebElement ele) {
+        return driver.findElement(toByVal(ele)).isDisplayed();
     }
 
     public static void dragMouse(WebElement target) {

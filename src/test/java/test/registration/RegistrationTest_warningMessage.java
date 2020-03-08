@@ -24,10 +24,10 @@ public class RegistrationTest_warningMessage extends TestBase {
     @Test
     public void InvalidValues1_AllEmpty() {
         navigateToSignInOrRegistrationPageFromHomePage(HomePage.location.AccountListFlyout, HomePage.signInOrRegister.Register);
-        createAccount_InputInfo(emptyValue, emptyValue, emptyValue);
-        verifyWarningMessageElementExist(WARNING_EMPTY_YOUR_NAME);
-        verifyWarningMessageElementExist(WARNING_EMPTY_EMAIL);
-        verifyWarningMessageElementExist(WARNING_EMPTY_PASSWORD);
+        createAccount_InputInfo(emptyValue, emptyValue, emptyValue, null);
+        verifyWarningMessageElementDisplay(WARNING_EMPTY_YOUR_NAME);
+        verifyWarningMessageElementDisplay(WARNING_EMPTY_EMAIL);
+        verifyWarningMessageElementDisplay(WARNING_EMPTY_PASSWORD);
     }
 
     @Severity(SeverityLevel.MINOR)
@@ -36,8 +36,8 @@ public class RegistrationTest_warningMessage extends TestBase {
     @Test
     public void InvalidValues2_EmptyName() {
         navigateToSignInOrRegistrationPageFromHomePage(HomePage.location.AccountListFlyout, HomePage.signInOrRegister.Register);
-        createAccount_InputInfo(emptyValue, email, password);
-        verifyWarningMessageElementExist(WARNING_EMPTY_YOUR_NAME);
+        createAccount_InputInfo(emptyValue, email, password, null);
+        verifyWarningMessageElementDisplay(WARNING_EMPTY_YOUR_NAME);
     }
 
     @Severity(SeverityLevel.MINOR)
@@ -46,8 +46,8 @@ public class RegistrationTest_warningMessage extends TestBase {
     @Test
     public void InvalidValues3_EmptyEmail() {
         navigateToSignInOrRegistrationPageFromHomePage(HomePage.location.AccountListFlyout, HomePage.signInOrRegister.Register);
-        createAccount_InputInfo(name, emptyValue, password);
-        verifyWarningMessageElementExist(WARNING_EMPTY_EMAIL);
+        createAccount_InputInfo(name, emptyValue, password, null);
+        verifyWarningMessageElementDisplay(WARNING_EMPTY_EMAIL);
     }
 
     @Severity(SeverityLevel.MINOR)
@@ -56,8 +56,8 @@ public class RegistrationTest_warningMessage extends TestBase {
     @Test
     public void InvalidValues4_EmptyPassword() {
         navigateToSignInOrRegistrationPageFromHomePage(HomePage.location.AccountListFlyout, HomePage.signInOrRegister.Register);
-        createAccount_InputInfo(name, email, emptyValue);
-        verifyWarningMessageElementExist(WARNING_EMPTY_PASSWORD);
+        createAccount_InputInfo(name, email, emptyValue, null);
+        verifyWarningMessageElementDisplay(WARNING_EMPTY_PASSWORD);
     }
 
     @Severity(SeverityLevel.MINOR)
@@ -66,8 +66,8 @@ public class RegistrationTest_warningMessage extends TestBase {
     @Test
     public void InvalidValues5_EmptyReenterPassword() {
         navigateToSignInOrRegistrationPageFromHomePage(HomePage.location.AccountListFlyout, HomePage.signInOrRegister.Register);
-        createAccount_InputInfo(name, email, emptyValue);
-        verifyWarningMessageElementExist(WARNING_EMPTY_REENTER_PASSWORD);
+        createAccount_InputInfo(name, email, password, emptyValue);
+        verifyWarningMessageElementDisplay(WARNING_EMPTY_REENTER_PASSWORD);
     }
 
     @Severity(SeverityLevel.MINOR)
@@ -76,8 +76,8 @@ public class RegistrationTest_warningMessage extends TestBase {
     @Test
     public void InvalidValues6_NotMatchPassword() {
         navigateToSignInOrRegistrationPageFromHomePage(HomePage.location.AccountListFlyout, HomePage.signInOrRegister.Register);
-        createAccount_InputInfo(name, email, emptyValue);
-        verifyWarningMessageElementExist(WARNING_NOT_MATCH_PASSWORD);
+        createAccount_InputInfo(name, email, password, "123455");
+        verifyWarningMessageElementDisplay(WARNING_NOT_MATCH_PASSWORD);
     }
 
     @Severity(SeverityLevel.MINOR)
@@ -86,8 +86,8 @@ public class RegistrationTest_warningMessage extends TestBase {
     @Test
     public void InvalidValues7_InvalidEmail() {
         navigateToSignInOrRegistrationPageFromHomePage(HomePage.location.AccountListFlyout, HomePage.signInOrRegister.Register);
-        createAccount_InputInfo(name, email, emptyValue);
-        verifyWarningMessageElementExist(WARNING_INVALID_EMAIL);
+        createAccount_InputInfo(name, "harrypgmail.com", password, null);
+        verifyWarningMessageElementDisplay(WARNING_INVALID_EMAIL);
     }
 
 }

@@ -33,19 +33,21 @@ public class RegistrationPage {
         CREATE_YOUR_AMAZON_ACCOUNT_BUTTON = find(By.id("continue"));
     }
 
-    public static void createAccount_InputInfo(String yourName, String email, String password) {
+    public static void createAccount_InputInfo(String yourName, String email, String password, @Nullable String reenterPassword) {
         setValueForElements();
         fill(YOUR_NAME_TEXTBOX, yourName);
         fill(EMAIL_TEXTBOX, email);
         fill(PASSWORD_TEXTBOX, password);
-        fill(REENTER_PASSWORD_TEXTBOX, password);
+        if (reenterPassword == null)
+            fill(REENTER_PASSWORD_TEXTBOX, password);
+        else fill(REENTER_PASSWORD_TEXTBOX, reenterPassword);
         click(CREATE_YOUR_AMAZON_ACCOUNT_BUTTON);
     }
 
     @Step("Verify the warning messages exist")
-    public static void verifyWarningMessageElementExist(WebElement warningElement) {
+    public static void verifyWarningMessageElementDisplay(WebElement warningElement) {
         SoftAssert sortAssertion = new SoftAssert();
-        sortAssertion.assertTrue(checkElementExist(warningElement));
+        sortAssertion.assertTrue(checkElementDisplay(warningElement));
         sortAssertion.assertAll();
     }
 

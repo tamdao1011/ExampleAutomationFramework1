@@ -1,0 +1,25 @@
+{
+  "uuid": "f846658c-3832-43e2-8b5c-59c59e90d51b",
+  "name": "resource.TestBase.clear",
+  "children": [
+    "1699b810-72cb-44f4-9b1b-83c050ccf630"
+  ],
+  "description": "",
+  "befores": [],
+  "afters": [
+    {
+      "name": "clear",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1583700133464,
+      "stop": 1583700133464
+    }
+  ],
+  "links": [],
+  "start": 1583700133464,
+  "stop": 1583700133464
+}

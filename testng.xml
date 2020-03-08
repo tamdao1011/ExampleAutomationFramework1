@@ -12,6 +12,7 @@
             <class name="test.homepage.NavigateToRegistrationPageTest"/>
             <class name="test.homepage.NavigateToSignInPageTest"/>
             <class name="test.registration.RegistrationTest_warningMessage"/>
+<!--            <class name="test.registration.RegistrationTest_DB"></class>-->
         </classes>
     </test> <!-- Test -->
     <test name="Firefox">

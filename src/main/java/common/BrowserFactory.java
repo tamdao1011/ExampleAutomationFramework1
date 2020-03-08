@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 public class BrowserFactory {
 
     public static WebDriver driver;
-    private static int timeInSeconds = 10;
+    private static int timeInSeconds = 20;
 
     //Create basic browser functions
     public static void launchBrowser(@NotNull String browserName) {
