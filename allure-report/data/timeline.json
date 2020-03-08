@@ -1,0 +1,949 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-4P5DUP2",
+    "children" : [ {
+      "name" : "4996@DESKTOP-4P5DUP2.main(1)",
+      "children" : [ {
+        "name" : "InvalidValues6_NotMatchPassword",
+        "uid" : "282d7c9d8ffde3c",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705513892,
+          "stop" : 1583705527062,
+          "duration" : 13170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen5_SignInPersonalizedButton",
+        "uid" : "dea3460d9940e507",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705411975,
+          "stop" : 1583705420684,
+          "duration" : 8709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen5_SignInPersonalizedButton",
+        "uid" : "6a554ef3e5042381",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705214371,
+          "stop" : 1583705219622,
+          "duration" : 5251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen1_SignInButtonOnSignInFlyout",
+        "uid" : "69850843155fdfe9",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705190077,
+          "stop" : 1583705196895,
+          "duration" : 6818
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues1_AllEmpty",
+        "uid" : "4ae0c564f109d360",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705538537,
+          "stop" : 1583705550971,
+          "duration" : 12434
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues5_EmptyReenterPassword",
+        "uid" : "1e6a82b5ab0af767",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705266221,
+          "stop" : 1583705273648,
+          "duration" : 7427
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen6_YourOrdersFooterItem",
+        "uid" : "77cdae4c00653c35",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705713163,
+          "stop" : 1583705722215,
+          "duration" : 9052
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifyRegistrationPageOpen1_StartHereLinkOnSignInFlyout",
+        "uid" : "6a03f4338f976049",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705645073,
+          "stop" : 1583705656139,
+          "duration" : 11066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues3_EmptyEmail",
+        "uid" : "2ccfb940854333d9",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705578984,
+          "stop" : 1583705593392,
+          "duration" : 14408
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen7_ReturnsReplacementsFooterItem",
+        "uid" : "5eeb84250652407b",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705722221,
+          "stop" : 1583705730419,
+          "duration" : 8198
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen4_SignInSecurelyButton",
+        "uid" : "8cc7b487781319bb",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705402951,
+          "stop" : 1583705411968,
+          "duration" : 9017
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues5_EmptyReenterPassword",
+        "uid" : "c73ea4128d8d582",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705501793,
+          "stop" : 1583705513878,
+          "duration" : 12085
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues4_EmptyPassword",
+        "uid" : "98a107b0a250e084",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705488835,
+          "stop" : 1583705501779,
+          "duration" : 12944
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues4_EmptyPassword",
+        "uid" : "fedfde4c1348e904",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705781456,
+          "stop" : 1583705795214,
+          "duration" : 13758
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues3_EmptyEmail",
+        "uid" : "5af796af029e81fa",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705304290,
+          "stop" : 1583705311802,
+          "duration" : 7512
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues5_EmptyReenterPassword",
+        "uid" : "d648594328ac0ba0",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705602305,
+          "stop" : 1583705614033,
+          "duration" : 11728
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen2_SignInButtonOnAccountListFlyout",
+        "uid" : "fe67ab8f686178f1",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705676903,
+          "stop" : 1583705686003,
+          "duration" : 9100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues3_EmptyEmail",
+        "uid" : "f9192dc7801827b",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705475432,
+          "stop" : 1583705488830,
+          "duration" : 13398
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen3_ReturnsAndOrdersItem",
+        "uid" : "82337526c42fbdc2",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705202795,
+          "stop" : 1583705209097,
+          "duration" : 6302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues6_NotMatchPassword",
+        "uid" : "e3566b5060f2abb0",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705810190,
+          "stop" : 1583705825325,
+          "duration" : 15135
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues7_InvalidEmail",
+        "uid" : "e94f2465f8dd33d5",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705527079,
+          "stop" : 1583705538518,
+          "duration" : 11439
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues5_EmptyReenterPassword",
+        "uid" : "d7b7f1ec31f0b071",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705899229,
+          "stop" : 1583705915057,
+          "duration" : 15828
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues2_EmptyName",
+        "uid" : "6c403f2dbefc14b3",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705751361,
+          "stop" : 1583705766283,
+          "duration" : 14922
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifyRegistrationPageOpen2_StartHereLinkOnAccountListFlyout",
+        "uid" : "173cf1c1622e410",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705656150,
+          "stop" : 1583705664503,
+          "duration" : 8353
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifyRegistrationPageOpen1_StartHereLinkOnSignInFlyout",
+        "uid" : "107ff7e39e2040f8",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705175087,
+          "stop" : 1583705182576,
+          "duration" : 7489
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues1_AllEmpty",
+        "uid" : "32ac32a4a8927e3a",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705450487,
+          "stop" : 1583705462308,
+          "duration" : 11821
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen2_SignInButtonOnAccountListFlyout",
+        "uid" : "fcd967dc7f9e4497",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705196909,
+          "stop" : 1583705202784,
+          "duration" : 5875
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen3_ReturnsAndOrdersItem",
+        "uid" : "11bbe935467e62b5",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705395536,
+          "stop" : 1583705402946,
+          "duration" : 7410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues7_InvalidEmail",
+        "uid" : "fb40c4277bf69814",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705825337,
+          "stop" : 1583705840983,
+          "duration" : 15646
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues2_EmptyName",
+        "uid" : "3595f678bda7be",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705550984,
+          "stop" : 1583705578965,
+          "duration" : 27981
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues5_EmptyReenterPassword",
+        "uid" : "ee7481be71398fab",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705795227,
+          "stop" : 1583705810176,
+          "duration" : 14949
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen7_ReturnsReplacementsFooterItem",
+        "uid" : "6190a010ffaba1dc",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705430923,
+          "stop" : 1583705440188,
+          "duration" : 9265
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen8_ManageYourContentDevicesFooterItem",
+        "uid" : "fa0b032a078d3904",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705730432,
+          "stop" : 1583705738599,
+          "duration" : 8167
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues4_EmptyPassword",
+        "uid" : "77ee6b7bf2905b9b",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705593406,
+          "stop" : 1583705602289,
+          "duration" : 8883
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues2_EmptyName",
+        "uid" : "a43448552b43b2ff",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705243142,
+          "stop" : 1583705250248,
+          "duration" : 7106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen7_ReturnsReplacementsFooterItem",
+        "uid" : "d7845266d30ead4c",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705224663,
+          "stop" : 1583705229927,
+          "duration" : 5264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues1_AllEmpty",
+        "uid" : "e08875f2e432c0fc",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705840990,
+          "stop" : 1583705853907,
+          "duration" : 12917
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues1_AllEmpty",
+        "uid" : "92e0222007e01dee",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705235695,
+          "stop" : 1583705243124,
+          "duration" : 7429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues7_InvalidEmail",
+        "uid" : "3122bba42f6bb190",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705281834,
+          "stop" : 1583705288884,
+          "duration" : 7050
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen8_ManageYourContentDevicesFooterItem",
+        "uid" : "8d0fa01629731c40",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705440196,
+          "stop" : 1583705450479,
+          "duration" : 10283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues2_EmptyName",
+        "uid" : "be88b8f4678ef217",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705853923,
+          "stop" : 1583705869093,
+          "duration" : 15170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues6_NotMatchPassword",
+        "uid" : "95499ab24c25c386",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705273664,
+          "stop" : 1583705281810,
+          "duration" : 8146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues6_NotMatchPassword",
+        "uid" : "95d0bbc055c2fb99",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705614051,
+          "stop" : 1583705625540,
+          "duration" : 11489
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifyRegistrationPageOpen2_StartHereLinkOnAccountListFlyout",
+        "uid" : "ba1de0e369b1fac1",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705182807,
+          "stop" : 1583705190059,
+          "duration" : 7252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues7_InvalidEmail",
+        "uid" : "7c749df3a20eb1af",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705625546,
+          "stop" : 1583705637073,
+          "duration" : 11527
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues4_EmptyPassword",
+        "uid" : "f2a55d301c90d7ff",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705258013,
+          "stop" : 1583705266212,
+          "duration" : 8199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues3_EmptyEmail",
+        "uid" : "f6d7a960badf6af0",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705869100,
+          "stop" : 1583705884069,
+          "duration" : 14969
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues6_NotMatchPassword",
+        "uid" : "3bd340bf35199d83",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705915062,
+          "stop" : 1583705930855,
+          "duration" : 15793
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen8_ManageYourContentDevicesFooterItem",
+        "uid" : "17951f36ca86b94f",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705229938,
+          "stop" : 1583705235685,
+          "duration" : 5747
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen2_SignInButtonOnAccountListFlyout",
+        "uid" : "ab3e8bf14bf1f154",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705384599,
+          "stop" : 1583705395527,
+          "duration" : 10928
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen4_SignInSecurelyButton",
+        "uid" : "b77f4524185bca0c",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705209105,
+          "stop" : 1583705214366,
+          "duration" : 5261
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen6_YourOrdersFooterItem",
+        "uid" : "94abbbe5186327c0",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705420695,
+          "stop" : 1583705430913,
+          "duration" : 10218
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues1_AllEmpty",
+        "uid" : "ef9833137c804429",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705288894,
+          "stop" : 1583705296725,
+          "duration" : 7831
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen6_YourOrdersFooterItem",
+        "uid" : "f52964e01ac0251",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705219628,
+          "stop" : 1583705224655,
+          "duration" : 5027
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues1_AllEmpty",
+        "uid" : "c187907f668e97fb",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705738611,
+          "stop" : 1583705751349,
+          "duration" : 12738
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifyRegistrationPageOpen2_StartHereLinkOnAccountListFlyout",
+        "uid" : "c38721d195bed5e6",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705366013,
+          "stop" : 1583705372853,
+          "duration" : 6840
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues3_EmptyEmail",
+        "uid" : "fec0ca740e92c747",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705766295,
+          "stop" : 1583705781444,
+          "duration" : 15149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues2_EmptyName",
+        "uid" : "ca3929aeaac291bc",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705462324,
+          "stop" : 1583705475414,
+          "duration" : 13090
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen3_ReturnsAndOrdersItem",
+        "uid" : "9cd8092ca6b87c10",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705686019,
+          "stop" : 1583705695057,
+          "duration" : 9038
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues6_NotMatchPassword",
+        "uid" : "4bed4ba90b664210",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705327647,
+          "stop" : 1583705334987,
+          "duration" : 7340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues4_EmptyPassword",
+        "uid" : "3766449dfbef2b22",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705884083,
+          "stop" : 1583705899216,
+          "duration" : 15133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues7_InvalidEmail",
+        "uid" : "6591b61f8c6dddfd",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705334994,
+          "stop" : 1583705342974,
+          "duration" : 7980
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues4_EmptyPassword",
+        "uid" : "bddb619c5b4f9dde",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705311807,
+          "stop" : 1583705320225,
+          "duration" : 8418
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifyRegistrationPageOpen1_StartHereLinkOnSignInFlyout",
+        "uid" : "ddf30675e1f829e6",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705355772,
+          "stop" : 1583705366004,
+          "duration" : 10232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues2_EmptyName",
+        "uid" : "7ac87788d637da03",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705296735,
+          "stop" : 1583705304276,
+          "duration" : 7541
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen1_SignInButtonOnSignInFlyout",
+        "uid" : "a371884e771da5a3",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705664513,
+          "stop" : 1583705676893,
+          "duration" : 12380
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen4_SignInSecurelyButton",
+        "uid" : "bc0ea2bd1768de73",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705695062,
+          "stop" : 1583705704218,
+          "duration" : 9156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues7_InvalidEmail",
+        "uid" : "3646434269a5bc2d",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705930866,
+          "stop" : 1583705947388,
+          "duration" : 16522
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues5_EmptyReenterPassword",
+        "uid" : "f99c1e526f860a40",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705320241,
+          "stop" : 1583705327636,
+          "duration" : 7395
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "InvalidValues3_EmptyEmail",
+        "uid" : "fd988ff656d4a215",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705250259,
+          "stop" : 1583705257992,
+          "duration" : 7733
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen5_SignInPersonalizedButton",
+        "uid" : "8781b79d013ea36c",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705704229,
+          "stop" : 1583705713150,
+          "duration" : 8921
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge", "https://www.amazon.com/" ]
+      }, {
+        "name" : "verifySignInPageOpen1_SignInButtonOnSignInFlyout",
+        "uid" : "faebe91bf8c135bf",
+        "parentUid" : "175dc78a487be436a08f37417cb05aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583705372863,
+          "stop" : 1583705384593,
+          "duration" : 11730
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox", "https://www.amazon.com/" ]
+      } ],
+      "uid" : "175dc78a487be436a08f37417cb05aef"
+    } ],
+    "uid" : "b454733d4ddf1482b24ad6564551a684"
+  } ]
+}
