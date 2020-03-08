@@ -1,0 +1,361 @@
+{
+  "uid": "39943f7be0decdac",
+  "name": "verifySignInPageOpen6_YourOrdersFooterItem",
+  "fullName": "test.homepage.NavigateToSignInPageTest.verifySignInPageOpen6_YourOrdersFooterItem",
+  "historyId": "31671dd5928447235ae834c21c351243",
+  "time": {
+    "start": 1583700212542,
+    "stop": 1583700217775,
+    "duration": 5233
+  },
+  "description": "SI06_Verify the Sign In page opens after clicking on the Your Orders footer item",
+  "descriptionHtml": "<p>SI06_Verify the Sign In page opens after clicking on the Your Orders footer item</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "start",
+      "time": {
+        "start": 1583700211580,
+        "stop": 1583700212538,
+        "duration": 958
+      },
+      "description": "",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "Navigate to the Home page",
+          "time": {
+            "start": 1583700211580,
+            "stop": 1583700212538,
+            "duration": 958
+          },
+          "status": "passed",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "attachmentsCount": 0,
+          "shouldDisplayMessage": false,
+          "stepsCount": 0,
+          "hasContent": false
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 1,
+      "hasContent": true
+    },
+    {
+      "name": "setup",
+      "time": {
+        "start": 1583700159106,
+        "stop": 1583700160628,
+        "duration": 1522
+      },
+      "description": "",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "Launch the browser",
+          "time": {
+            "start": 1583700159106,
+            "stop": 1583700160628,
+            "duration": 1522
+          },
+          "status": "passed",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "browser",
+              "value": "edge"
+            },
+            {
+              "name": "url",
+              "value": "https://www.amazon.com/"
+            }
+          ],
+          "attachmentsCount": 0,
+          "shouldDisplayMessage": false,
+          "stepsCount": 0,
+          "hasContent": true
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 1,
+      "hasContent": true
+    }
+  ],
+  "testStage": {
+    "description": "SI06_Verify the Sign In page opens after clicking on the Your Orders footer item",
+    "status": "passed",
+    "steps": [
+      {
+        "name": "Navigate to the Sign In/Registration page from the Home page",
+        "time": {
+          "start": 1583700212542,
+          "stop": 1583700217069,
+          "duration": 4527
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "Verify the page title",
+            "time": {
+              "start": 1583700212542,
+              "stop": 1583700212655,
+              "duration": 113
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [
+              {
+                "name": "expectedTitle",
+                "value": "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
+              }
+            ],
+            "attachmentsCount": 0,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "hasContent": true
+          }
+        ],
+        "attachments": [],
+        "parameters": [
+          {
+            "name": "location",
+            "value": "YourOrdersFooterItem"
+          },
+          {
+            "name": "signInOrRegister",
+            "value": "null"
+          }
+        ],
+        "attachmentsCount": 0,
+        "shouldDisplayMessage": false,
+        "stepsCount": 1,
+        "hasContent": true
+      },
+      {
+        "name": "Check the page title and the text exist",
+        "time": {
+          "start": 1583700217069,
+          "stop": 1583700217775,
+          "duration": 706
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "Verify the text value",
+            "time": {
+              "start": 1583700217069,
+              "stop": 1583700217772,
+              "duration": 703
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [
+              {
+                "name": "ele",
+                "value": "[[ChromeDriver: chrome on WINDOWS (17024e606a6249dc6d40c505398e80c2)] -> css selector: h1.a-spacing-small]"
+              },
+              {
+                "name": "expectedText",
+                "value": "Sign-In"
+              }
+            ],
+            "attachmentsCount": 0,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "hasContent": true
+          },
+          {
+            "name": "Verify the page title",
+            "time": {
+              "start": 1583700217772,
+              "stop": 1583700217775,
+              "duration": 3
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [
+              {
+                "name": "expectedTitle",
+                "value": "Amazon Sign-In"
+              }
+            ],
+            "attachmentsCount": 0,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "hasContent": true
+          }
+        ],
+        "attachments": [],
+        "parameters": [
+          {
+            "name": "expectedTitle",
+            "value": "Amazon Sign-In"
+          },
+          {
+            "name": "textEle",
+            "value": "[[ChromeDriver: chrome on WINDOWS (17024e606a6249dc6d40c505398e80c2)] -> css selector: h1.a-spacing-small]"
+          },
+          {
+            "name": "expectedText",
+            "value": "Sign-In"
+          }
+        ],
+        "attachmentsCount": 0,
+        "shouldDisplayMessage": false,
+        "stepsCount": 2,
+        "hasContent": true
+      }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "attachmentsCount": 0,
+    "shouldDisplayMessage": false,
+    "stepsCount": 5,
+    "hasContent": true
+  },
+  "afterStages": [
+    {
+      "name": "tearDown",
+      "time": {
+        "start": 1583700292802,
+        "stop": 1583700293206,
+        "duration": 404
+      },
+      "description": "",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "Close the browser",
+          "time": {
+            "start": 1583700292802,
+            "stop": 1583700293206,
+            "duration": 404
+          },
+          "status": "passed",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "attachmentsCount": 0,
+          "shouldDisplayMessage": false,
+          "stepsCount": 0,
+          "hasContent": false
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 1,
+      "hasContent": true
+    },
+    {
+      "name": "clear",
+      "time": {
+        "start": 1583700217777,
+        "stop": 1583700217777,
+        "duration": 0
+      },
+      "description": "",
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "package",
+      "value": "test.homepage.NavigateToSignInPageTest"
+    },
+    {
+      "name": "testClass",
+      "value": "test.homepage.NavigateToSignInPageTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "verifySignInPageOpen6_YourOrdersFooterItem"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Suite"
+    },
+    {
+      "name": "suite",
+      "value": "Edge"
+    },
+    {
+      "name": "subSuite",
+      "value": "test.homepage.NavigateToSignInPageTest"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-4P5DUP2"
+    },
+    {
+      "name": "thread",
+      "value": "22876@DESKTOP-4P5DUP2.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "story",
+      "value": "Verify the navigation to Sign In page"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "browser",
+      "value": "edge"
+    },
+    {
+      "name": "url",
+      "value": "https://www.amazon.com/"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "39943f7be0decdac.json",
+  "parameterValues": [
+    "edge",
+    "https://www.amazon.com/"
+  ]
+}
