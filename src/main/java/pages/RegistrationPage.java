@@ -17,10 +17,13 @@ public class RegistrationPage {
     public static WebElement REENTER_PASSWORD_TEXTBOX;
     public static WebElement CREATE_YOUR_AMAZON_ACCOUNT_BUTTON;
     public static WebElement CREATE_ACCOUNT_TEXT = find(By.cssSelector("h1.a-spacing-small"));
-    ;
-    public static WebElement WARNING_ENTER_YOUR_NAME = find(By.xpath("//div[contains (text(), \"Enter your name\")]"));
-    public static WebElement WARNING_ENTER_YOUR_EMAIL = find(By.xpath("//div[contains (text(), \"Enter your email\")]"));
-    public static WebElement WARNING_ENTER_YOUR_PASSWORD = find(By.xpath("//div[contains (text(), \"Enter your password\")]"));
+
+    public static WebElement WARNING_EMPTY_YOUR_NAME = find(By.xpath("//div[contains (text(), \"Enter your name\")]"));
+    public static WebElement WARNING_EMPTY_EMAIL = find(By.xpath("//div[contains (text(), \"Enter your email\")]"));
+    public static WebElement WARNING_EMPTY_PASSWORD = find(By.xpath("//div[contains (text(), \"Enter your password\")]"));
+    public static WebElement WARNING_EMPTY_REENTER_PASSWORD = find(By.xpath("//div[contains (text(), \"Type your password again\")]"));
+    public static WebElement WARNING_NOT_MATCH_PASSWORD = find(By.xpath("//div[contains (text(), \"Passwords must match\")]"));
+    public static WebElement WARNING_INVALID_EMAIL = find(By.xpath("//div[contains (text(), \"Enter a valid email address\")]"));
 
     private static void setValueForElements() {
         YOUR_NAME_TEXTBOX = find(By.id("ap_customer_name"));
@@ -40,14 +43,9 @@ public class RegistrationPage {
     }
 
     @Step("Verify the warning messages exist")
-    public static void verifyWarningMessageExist(@Nullable String name, @Nullable String email, @Nullable String password) {
+    public static void verifyWarningMessageElementExist(WebElement warningElement) {
         SoftAssert sortAssertion = new SoftAssert();
-        if (name != null)
-            sortAssertion.assertTrue(checkElementExist(WARNING_ENTER_YOUR_NAME));
-        if (email != null)
-            sortAssertion.assertTrue(checkElementExist(WARNING_ENTER_YOUR_EMAIL));
-        if (password != null)
-            sortAssertion.assertTrue(checkElementExist(WARNING_ENTER_YOUR_PASSWORD));
+        sortAssertion.assertTrue(checkElementExist(warningElement));
         sortAssertion.assertAll();
     }
 

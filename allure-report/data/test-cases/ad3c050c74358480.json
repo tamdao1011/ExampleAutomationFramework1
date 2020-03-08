@@ -1,0 +1,305 @@
+{
+  "uid": "ad3c050c74358480",
+  "name": "InvalidValues1_AllEmpty",
+  "fullName": "test.registration.RegistrationTest_warningMessage.InvalidValues1_AllEmpty",
+  "historyId": "19d668dfaab45d4b8de8e68be041cbda",
+  "time": {
+    "start": 1583642021150,
+    "stop": 1583642025985,
+    "duration": 4835
+  },
+  "description": "RF01_Verify the invalid input - all empty",
+  "descriptionHtml": "<p>RF01_Verify the invalid input - all empty</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "start",
+      "time": {
+        "start": 1583642020671,
+        "stop": 1583642021147,
+        "duration": 476
+      },
+      "description": "",
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    },
+    {
+      "name": "setup",
+      "time": {
+        "start": 1583641958973,
+        "stop": 1583641963884,
+        "duration": 4911
+      },
+      "description": "",
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    }
+  ],
+  "testStage": {
+    "description": "RF01_Verify the invalid input - all empty",
+    "status": "passed",
+    "steps": [
+      {
+        "name": "Navigate to the Sign In/Registration page from the Home page",
+        "time": {
+          "start": 1583642021150,
+          "stop": 1583642024827,
+          "duration": 3677
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "Verify the page title",
+            "time": {
+              "start": 1583642021150,
+              "stop": 1583642021168,
+              "duration": 18
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [
+              {
+                "name": "expectedTitle",
+                "value": "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
+              }
+            ],
+            "stepsCount": 0,
+            "hasContent": true,
+            "attachmentsCount": 0,
+            "shouldDisplayMessage": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [
+          {
+            "name": "location",
+            "value": "AccountListFlyout"
+          },
+          {
+            "name": "signInOrRegister",
+            "value": "Register"
+          }
+        ],
+        "stepsCount": 1,
+        "hasContent": true,
+        "attachmentsCount": 0,
+        "shouldDisplayMessage": false
+      },
+      {
+        "name": "Verify the warning messages exist",
+        "time": {
+          "start": 1583642025920,
+          "stop": 1583642025970,
+          "duration": 50
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [
+          {
+            "name": "warningElement",
+            "value": "[[ChromeDriver: chrome on WINDOWS (c2d4bebf2eefbafafda5aed64a8ab42a)] -> xpath: //div[contains (text(), \"Enter your name\")]]"
+          }
+        ],
+        "stepsCount": 0,
+        "hasContent": true,
+        "attachmentsCount": 0,
+        "shouldDisplayMessage": false
+      },
+      {
+        "name": "Verify the warning messages exist",
+        "time": {
+          "start": 1583642025970,
+          "stop": 1583642025985,
+          "duration": 15
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [
+          {
+            "name": "warningElement",
+            "value": "[[ChromeDriver: chrome on WINDOWS (c2d4bebf2eefbafafda5aed64a8ab42a)] -> xpath: //div[contains (text(), \"Enter your email\")]]"
+          }
+        ],
+        "stepsCount": 0,
+        "hasContent": true,
+        "attachmentsCount": 0,
+        "shouldDisplayMessage": false
+      },
+      {
+        "name": "Verify the warning messages exist",
+        "time": {
+          "start": 1583642025985,
+          "stop": 1583642025985,
+          "duration": 0
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [
+          {
+            "name": "warningElement",
+            "value": "[[ChromeDriver: chrome on WINDOWS (c2d4bebf2eefbafafda5aed64a8ab42a)] -> xpath: //div[contains (text(), \"Enter your password\")]]"
+          }
+        ],
+        "stepsCount": 0,
+        "hasContent": true,
+        "attachmentsCount": 0,
+        "shouldDisplayMessage": false
+      }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "stepsCount": 5,
+    "hasContent": true,
+    "attachmentsCount": 0,
+    "shouldDisplayMessage": false
+  },
+  "afterStages": [
+    {
+      "name": "clear",
+      "time": {
+        "start": 1583642025985,
+        "stop": 1583642025985,
+        "duration": 0
+      },
+      "description": "",
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    },
+    {
+      "name": "tearDown",
+      "time": {
+        "start": 1583642068125,
+        "stop": 1583642071181,
+        "duration": 3056
+      },
+      "description": "",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "Close the browser",
+          "time": {
+            "start": 1583642068126,
+            "stop": 1583642071181,
+            "duration": 3055
+          },
+          "status": "passed",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "stepsCount": 0,
+          "hasContent": false,
+          "attachmentsCount": 0,
+          "shouldDisplayMessage": false
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 1,
+      "hasContent": true,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "package",
+      "value": "test.registration.RegistrationTest_warningMessage"
+    },
+    {
+      "name": "testClass",
+      "value": "test.registration.RegistrationTest_warningMessage"
+    },
+    {
+      "name": "testMethod",
+      "value": "InvalidValues1_AllEmpty"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Suite"
+    },
+    {
+      "name": "suite",
+      "value": "Firefox"
+    },
+    {
+      "name": "subSuite",
+      "value": "test.registration.RegistrationTest_warningMessage"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-4P5DUP2"
+    },
+    {
+      "name": "thread",
+      "value": "19348@DESKTOP-4P5DUP2.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "story",
+      "value": "Verify the Registration function"
+    },
+    {
+      "name": "severity",
+      "value": "minor"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "browser",
+      "value": "firefox"
+    },
+    {
+      "name": "url",
+      "value": "https://www.amazon.com/"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "minor",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "ad3c050c74358480.json",
+  "parameterValues": [
+    "firefox",
+    "https://www.amazon.com/"
+  ]
+}

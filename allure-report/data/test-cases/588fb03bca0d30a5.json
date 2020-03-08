@@ -1,0 +1,263 @@
+{
+  "uid": "588fb03bca0d30a5",
+  "name": "InvalidValues5_EmptyReenterPassword",
+  "fullName": "test.registration.RegistrationTest_warningMessage.InvalidValues5_EmptyReenterPassword",
+  "historyId": "85b8d2e0c894528b58188b35f6dff967",
+  "time": {
+    "start": 1583642048710,
+    "stop": 1583642055296,
+    "duration": 6586
+  },
+  "description": "RF05_Verify the invalid input - empty re-enter password",
+  "descriptionHtml": "<p>RF05_Verify the invalid input - empty re-enter password</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "start",
+      "time": {
+        "start": 1583642048275,
+        "stop": 1583642048710,
+        "duration": 435
+      },
+      "description": "",
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    },
+    {
+      "name": "setup",
+      "time": {
+        "start": 1583641958973,
+        "stop": 1583641963884,
+        "duration": 4911
+      },
+      "description": "",
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    }
+  ],
+  "testStage": {
+    "description": "RF05_Verify the invalid input - empty re-enter password",
+    "status": "passed",
+    "steps": [
+      {
+        "name": "Navigate to the Sign In/Registration page from the Home page",
+        "time": {
+          "start": 1583642048710,
+          "stop": 1583642054199,
+          "duration": 5489
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "Verify the page title",
+            "time": {
+              "start": 1583642048710,
+              "stop": 1583642048736,
+              "duration": 26
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [
+              {
+                "name": "expectedTitle",
+                "value": "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
+              }
+            ],
+            "stepsCount": 0,
+            "hasContent": true,
+            "attachmentsCount": 0,
+            "shouldDisplayMessage": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [
+          {
+            "name": "location",
+            "value": "AccountListFlyout"
+          },
+          {
+            "name": "signInOrRegister",
+            "value": "Register"
+          }
+        ],
+        "stepsCount": 1,
+        "hasContent": true,
+        "attachmentsCount": 0,
+        "shouldDisplayMessage": false
+      },
+      {
+        "name": "Verify the warning messages exist",
+        "time": {
+          "start": 1583642055261,
+          "stop": 1583642055296,
+          "duration": 35
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [
+          {
+            "name": "warningElement",
+            "value": "[[ChromeDriver: chrome on WINDOWS (c2d4bebf2eefbafafda5aed64a8ab42a)] -> xpath: //div[contains (text(), \"Type your password again\")]]"
+          }
+        ],
+        "stepsCount": 0,
+        "hasContent": true,
+        "attachmentsCount": 0,
+        "shouldDisplayMessage": false
+      }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "stepsCount": 3,
+    "hasContent": true,
+    "attachmentsCount": 0,
+    "shouldDisplayMessage": false
+  },
+  "afterStages": [
+    {
+      "name": "clear",
+      "time": {
+        "start": 1583642055297,
+        "stop": 1583642055297,
+        "duration": 0
+      },
+      "description": "",
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    },
+    {
+      "name": "tearDown",
+      "time": {
+        "start": 1583642068125,
+        "stop": 1583642071181,
+        "duration": 3056
+      },
+      "description": "",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "Close the browser",
+          "time": {
+            "start": 1583642068126,
+            "stop": 1583642071181,
+            "duration": 3055
+          },
+          "status": "passed",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "stepsCount": 0,
+          "hasContent": false,
+          "attachmentsCount": 0,
+          "shouldDisplayMessage": false
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 1,
+      "hasContent": true,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "package",
+      "value": "test.registration.RegistrationTest_warningMessage"
+    },
+    {
+      "name": "testClass",
+      "value": "test.registration.RegistrationTest_warningMessage"
+    },
+    {
+      "name": "testMethod",
+      "value": "InvalidValues5_EmptyReenterPassword"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Suite"
+    },
+    {
+      "name": "suite",
+      "value": "Firefox"
+    },
+    {
+      "name": "subSuite",
+      "value": "test.registration.RegistrationTest_warningMessage"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-4P5DUP2"
+    },
+    {
+      "name": "thread",
+      "value": "19348@DESKTOP-4P5DUP2.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "story",
+      "value": "Verify the Registration function"
+    },
+    {
+      "name": "severity",
+      "value": "minor"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "browser",
+      "value": "firefox"
+    },
+    {
+      "name": "url",
+      "value": "https://www.amazon.com/"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "minor",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "588fb03bca0d30a5.json",
+  "parameterValues": [
+    "firefox",
+    "https://www.amazon.com/"
+  ]
+}
