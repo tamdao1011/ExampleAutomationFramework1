@@ -14,12 +14,14 @@ public class TestBase {
 
     @Parameters({"browser", "url"})
     @BeforeTest
+    @Step("Launch the browser")
     public void setup(String browser, String url) {
         setGlobalVariables(browser, url);
         launchBrowser(browser);
     }
 
     @BeforeMethod
+    @Step("Navigate to the Home page")
     public void start() {
         navigateToHomePage();
     }
