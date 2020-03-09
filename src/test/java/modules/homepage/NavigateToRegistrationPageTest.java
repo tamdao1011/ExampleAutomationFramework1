@@ -1,4 +1,4 @@
-package test.homepage;
+package modules.homepage;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
@@ -7,7 +7,7 @@ import io.qameta.allure.Story;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.RegistrationPage;
-import test.TestBase;
+import modules.TestBase;
 
 import static common.CommonFunctions.verifyPageDisplay;
 import static pages.HomePage.navigateToSignInOrRegistrationPageFromHomePage;

@@ -1,4 +1,4 @@
-package test;
+package modules;
 
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;

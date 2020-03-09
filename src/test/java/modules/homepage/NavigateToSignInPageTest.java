@@ -1,10 +1,10 @@
-package test.homepage;
+package modules.homepage;
 
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.SignInPage_Account;
-import test.TestBase;
+import modules.TestBase;
 
 import static common.CommonFunctions.*;
 import static pages.HomePage.navigateToSignInOrRegistrationPageFromHomePage;
