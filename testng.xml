@@ -9,30 +9,30 @@
         <parameter name="browser" value="chrome"/>
         <parameter name="url" value="https://www.amazon.com/"/>
         <classes>
-            <class name="test.homepage.NavigateToRegistrationPageTest"/>
-            <class name="test.homepage.NavigateToSignInPageTest"/>
-            <class name="test.registration.RegistrationTest_warningMessage"/>
-            <class name="test.registration.RegistrationTest_DB"></class>
+            <class name="modules.homepage.NavigateToRegistrationPageTest"/>
+            <class name="modules.homepage.NavigateToSignInPageTest"/>
+            <class name="modules.registration.RegistrationTest_warningMessage"/>
+            <class name="modules.registration.RegistrationTest_DB"/>
+            <class name="modules.registration.RegistrationTest_Excel"/>
+
         </classes>
     </test> <!-- Test -->
     <test name="Firefox">
         <parameter name="browser" value="firefox"/>
         <parameter name="url" value="https://www.amazon.com/"/>
         <classes>
-            <class name="test.homepage.NavigateToRegistrationPageTest"/>
-            <class name="test.homepage.NavigateToSignInPageTest"/>
-            <class name="test.registration.RegistrationTest_warningMessage"/>
-            <class name="test.registration.RegistrationTest_DB"></class>
+            <class name="modules.homepage.NavigateToRegistrationPageTest"/>
+            <class name="modules.homepage.NavigateToSignInPageTest"/>
+            <class name="modules.registration.RegistrationTest_warningMessage"/>
         </classes>
     </test> <!-- Test -->
     <test name="Edge">
         <parameter name="browser" value="edge"/>
         <parameter name="url" value="https://www.amazon.com/"/>
         <classes>
-            <class name="test.homepage.NavigateToRegistrationPageTest"/>
-            <class name="test.homepage.NavigateToSignInPageTest"/>
-            <class name="test.registration.RegistrationTest_warningMessage"/>
-            <class name="test.registration.RegistrationTest_DB"></class>
+            <class name="modules.homepage.NavigateToRegistrationPageTest"/>
+            <class name="modules.homepage.NavigateToSignInPageTest"/>
+            <class name="modules.registration.RegistrationTest_warningMessage"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

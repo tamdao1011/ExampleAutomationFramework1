@@ -4,7 +4,7 @@ import io.qameta.allure.*;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.SignInPage_Account;
-import modules.TestBase;
+import core.TestBase;
 
 import static common.CommonFunctions.*;
 import static pages.HomePage.navigateToSignInOrRegistrationPageFromHomePage;

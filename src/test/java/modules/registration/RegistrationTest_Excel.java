@@ -4,27 +4,22 @@ import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
+import core.TestBase;
 import org.testng.annotations.Test;
 import pages.HomePage;
-import core.TestBase;
 
+import static excel.ReadExcel.getDataFromExcel;
 import static pages.HomePage.navigateToSignInOrRegistrationPageFromHomePage;
 import static pages.RegistrationPage.*;
 
-public class RegistrationTest_warningMessage extends TestBase {
-
-    private String name = "First Last";
-    private String email = "abc@mnb.com";
-    private String password = "123456";
-    private String emptyValue = "";
+public class RegistrationTest_Excel extends TestBase {
 
     @Severity(SeverityLevel.MINOR)
     @Story("Verify the Registration function")
     @Description("RF01_Verify the invalid input - all empty")
     @Test
     public void InvalidValues1_AllEmpty() {
-        navigateToSignInOrRegistrationPageFromHomePage(HomePage.location.AccountListFlyout, HomePage.signInOrRegister.Register);
-        createAccount_InputInfo(emptyValue, emptyValue, emptyValue, null);
+        createAccountFromExcel("InvalidValues1_AllEmpty");
         verifyWarningMessageElementDisplay(WARNING_EMPTY_YOUR_NAME);
         verifyWarningMessageElementDisplay(WARNING_EMPTY_EMAIL);
         verifyWarningMessageElementDisplay(WARNING_EMPTY_PASSWORD);
@@ -35,8 +30,7 @@ public class RegistrationTest_warningMessage extends TestBase {
     @Description("RF02_Verify the invalid input - empty name")
     @Test
     public void InvalidValues2_EmptyName() {
-        navigateToSignInOrRegistrationPageFromHomePage(HomePage.location.AccountListFlyout, HomePage.signInOrRegister.Register);
-        createAccount_InputInfo(emptyValue, email, password, null);
+        createAccountFromExcel("InvalidValues2_EmptyName");
         verifyWarningMessageElementDisplay(WARNING_EMPTY_YOUR_NAME);
     }
 
@@ -45,8 +39,7 @@ public class RegistrationTest_warningMessage extends TestBase {
     @Description("RF03_Verify the invalid input - empty email")
     @Test
     public void InvalidValues3_EmptyEmail() {
-        navigateToSignInOrRegistrationPageFromHomePage(HomePage.location.AccountListFlyout, HomePage.signInOrRegister.Register);
-        createAccount_InputInfo(name, emptyValue, password, null);
+        createAccountFromExcel("InvalidValues3_EmptyEmail");
         verifyWarningMessageElementDisplay(WARNING_EMPTY_EMAIL);
     }
 
@@ -55,8 +48,7 @@ public class RegistrationTest_warningMessage extends TestBase {
     @Description("RF04_Verify the invalid input - empty password")
     @Test
     public void InvalidValues4_EmptyPassword() {
-        navigateToSignInOrRegistrationPageFromHomePage(HomePage.location.AccountListFlyout, HomePage.signInOrRegister.Register);
-        createAccount_InputInfo(name, email, emptyValue, null);
+        createAccountFromExcel("InvalidValues4_EmptyPassword");
         verifyWarningMessageElementDisplay(WARNING_EMPTY_PASSWORD);
     }
 
@@ -65,8 +57,7 @@ public class RegistrationTest_warningMessage extends TestBase {
     @Description("RF05_Verify the invalid input - empty re-enter password")
     @Test
     public void InvalidValues5_EmptyReenterPassword() {
-        navigateToSignInOrRegistrationPageFromHomePage(HomePage.location.AccountListFlyout, HomePage.signInOrRegister.Register);
-        createAccount_InputInfo(name, email, password, emptyValue);
+        createAccountFromExcel("InvalidValues5_EmptyReenterPassword");
         verifyWarningMessageElementDisplay(WARNING_EMPTY_REENTER_PASSWORD);
     }
 
@@ -75,8 +66,7 @@ public class RegistrationTest_warningMessage extends TestBase {
     @Description("RF06_Verify the invalid input - not match password")
     @Test
     public void InvalidValues6_NotMatchPassword() {
-        navigateToSignInOrRegistrationPageFromHomePage(HomePage.location.AccountListFlyout, HomePage.signInOrRegister.Register);
-        createAccount_InputInfo(name, email, password, "123455");
+        createAccountFromExcel("InvalidValues6_NotMatchPassword");
         verifyWarningMessageElementDisplay(WARNING_NOT_MATCH_PASSWORD);
     }
 
@@ -85,9 +75,14 @@ public class RegistrationTest_warningMessage extends TestBase {
     @Description("RF07_Verify the invalid input - invalid email")
     @Test
     public void InvalidValues7_InvalidEmail() {
-        navigateToSignInOrRegistrationPageFromHomePage(HomePage.location.AccountListFlyout, HomePage.signInOrRegister.Register);
-        createAccount_InputInfo(name, "harrypgmail.com", password, null);
+        createAccountFromExcel("InvalidValues7_InvalidEmail");
         verifyWarningMessageElementDisplay(WARNING_INVALID_EMAIL);
+    }
+
+    private void createAccountFromExcel(String valueType) {
+        navigateToSignInOrRegistrationPageFromHomePage(HomePage.location.AccountListFlyout, HomePage.signInOrRegister.Register);
+        String[] valueArray = getDataFromExcel(valueType);
+        createAccount_InputInfo(valueArray[0], valueArray[1], valueArray[2], valueArray[3]);
     }
 
 }

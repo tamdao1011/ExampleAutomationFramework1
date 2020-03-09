@@ -7,7 +7,7 @@ import io.qameta.allure.Story;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.RegistrationPage;
-import modules.TestBase;
+import core.TestBase;
 
 import static common.CommonFunctions.verifyPageDisplay;
 import static pages.HomePage.navigateToSignInOrRegistrationPageFromHomePage;

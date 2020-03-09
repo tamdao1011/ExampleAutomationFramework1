@@ -6,7 +6,7 @@ import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 import org.testng.annotations.Test;
 import pages.HomePage;
-import modules.TestBase;
+import core.TestBase;
 
 import static database.SQLConnector.query;
 import static pages.HomePage.navigateToSignInOrRegistrationPageFromHomePage;
