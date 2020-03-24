@@ -47,7 +47,7 @@ public class RegistrationPage {
     @Step("Verify the warning messages exist")
     public static void verifyWarningMessageElementDisplay(WebElement warningElement) {
         SoftAssert sortAssertion = new SoftAssert();
-        sortAssertion.assertTrue(checkElementDisplay(warningElement));
+        sortAssertion.assertTrue(checkElementPresent(warningElement));
         sortAssertion.assertAll();
     }
 

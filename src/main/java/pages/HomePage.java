@@ -47,7 +47,7 @@ public class HomePage {
         ACCOUNT_LIST_FLYOUT_START_HERE_LINK = find(By.cssSelector("a[href*=\"nav_newcust\"]"));
         ACCOUNT_AND_LISTS_ITEM = find(By.id("nav-link-accountList"));
         RETURNS_AND_ORDERS_ITEM = find(By.id("nav-orders"));
-        SIGN_IN_SECURELY_BUTTON = find(By.id("a-autoid-0-announce"));
+        SIGN_IN_SECURELY_BUTTON = find(By.xpath("//a[contains(text(),\"Sign in securely\")]"));
         SIGN_IN_PERSONALIZED_BUTTON = find(By.partialLinkText("personalized"));
         YOUR_ORDERS_FOOTER_ITEM = find(By.xpath("//a[contains(text(),\"Your Orders\")]"));
         RETURNS_REPLACEMENTS_FOOTER_ITEM = find(By.xpath("//a[contains(text(),\"Returns & Replacements\")]"));
@@ -63,7 +63,7 @@ public class HomePage {
 
         switch (location) {
             case SignInFlyout:
-                while (!checkElementDisplay(SIGN_IN_FLYOUT))
+                while (!checkElementPresent(SIGN_IN_FLYOUT))
                     refreshBrowser();
                 setValueForElements();
                 scrollDragMouseAndClick(location, signInOrRegister);

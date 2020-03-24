@@ -13,26 +13,29 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
+import static common.CommonFunctions.timeInSeconds;
+
 public class BrowserFactory {
 
     public static WebDriver driver;
-    private static int timeInSeconds = 20;
+
+    private enum browserName {chrome, firefox, ie, edge, safari}
 
     //Create basic browser functions
     public static void launchBrowser(@NotNull String browserName) {
-        if (browserName.equalsIgnoreCase("chrome")) {
+        if (browserName.equalsIgnoreCase(String.valueOf(BrowserFactory.browserName.chrome))) {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
-        } else if (browserName.equalsIgnoreCase("firefox")) {
+        } else if (browserName.equalsIgnoreCase(String.valueOf(BrowserFactory.browserName.firefox))) {
             WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
-        } else if (browserName.equalsIgnoreCase("ie")) {
+        } else if (browserName.equalsIgnoreCase(String.valueOf(BrowserFactory.browserName.ie))) {
             WebDriverManager.iedriver().setup();
             driver = new InternetExplorerDriver();
-        } else if (browserName.equalsIgnoreCase("edge")) {
+        } else if (browserName.equalsIgnoreCase(String.valueOf(BrowserFactory.browserName.edge))) {
             WebDriverManager.edgedriver().setup();
             driver = new EdgeDriver();
-        } else if (browserName.equalsIgnoreCase("safari")) {
+        } else if (browserName.equalsIgnoreCase(String.valueOf(BrowserFactory.browserName.safari))) {
             driver = new SafariDriver();
         } else {
             System.err.println("Browser " + browserName + " is not defined");

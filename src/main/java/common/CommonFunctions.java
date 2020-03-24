@@ -14,6 +14,8 @@ import static common.BrowserFactory.*;
 
 public class CommonFunctions {
 
+    public static final int timeInSeconds = 10;
+
     //Declare and set value for global variables
     public static String g_browserName;
     public static String g_url;
@@ -71,7 +73,7 @@ public class CommonFunctions {
 
     public static void click(WebElement ele) {
         //Have to use WebDriverWait due to implicitlyWait/pageLoadTimeout only work for Chrome
-        WebDriverWait wait = new WebDriverWait(driver, 15);
+        WebDriverWait wait = new WebDriverWait(driver, timeInSeconds);
         wait.until(ExpectedConditions.elementToBeClickable(ele));
         Actions actions = new Actions(driver);
         actions.click(ele).perform();
@@ -97,8 +99,9 @@ public class CommonFunctions {
         actions.sendKeys(ele, text).perform();
     }
 
-    public static boolean checkElementDisplay(WebElement ele) {
-        return driver.findElement(toByVal(ele)).isDisplayed();
+    public static boolean checkElementPresent(WebElement ele) {
+        Boolean isPresent = driver.findElements(toByVal(ele)).size() > 0;
+        return isPresent;
     }
 
     public static void dragMouse(WebElement target) {
