@@ -1,0 +1,651 @@
+[ {
+  "uid" : "34a055ac4df28bc0",
+  "name" : "InvalidValues3_EmptyEmail",
+  "time" : {
+    "start" : 1583792744389,
+    "stop" : 1583792747990,
+    "duration" : 3601
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "e1df6cfba7e1f830",
+  "name" : "InvalidValues2_EmptyName",
+  "time" : {
+    "start" : 1583792857692,
+    "stop" : 1583792864282,
+    "duration" : 6590
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "9bf76d9922d80f7c",
+  "name" : "verifySignInPageOpen5_SignInPersonalizedButton",
+  "time" : {
+    "start" : 1583792832231,
+    "stop" : 1583792836745,
+    "duration" : 4514
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d030975d74cf29db",
+  "name" : "verifyRegistrationPageOpen1_StartHereLinkOnSignInFlyout",
+  "time" : {
+    "start" : 1583792798859,
+    "stop" : 1583792804944,
+    "duration" : 6085
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "695b955266c0d917",
+  "name" : "InvalidValues1_AllEmpty",
+  "time" : {
+    "start" : 1583792965650,
+    "stop" : 1583792973533,
+    "duration" : 7883
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "2e32363bcd03805f",
+  "name" : "InvalidValues5_EmptyReenterPassword",
+  "time" : {
+    "start" : 1583792724954,
+    "stop" : 1583792728672,
+    "duration" : 3718
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "83358854d2ca58be",
+  "name" : "InvalidValues1_AllEmpty",
+  "time" : {
+    "start" : 1583792763554,
+    "stop" : 1583792768484,
+    "duration" : 4930
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "574bc58843ddf5cc",
+  "name" : "verifySignInPageOpen2_SignInButtonOnAccountListFlyout",
+  "time" : {
+    "start" : 1583792926244,
+    "stop" : 1583792932229,
+    "duration" : 5985
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cafb57f8841cdc8",
+  "name" : "verifySignInPageOpen7_ReturnsReplacementsFooterItem",
+  "time" : {
+    "start" : 1583792841986,
+    "stop" : 1583792845501,
+    "duration" : 3515
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3d7edc425c33eb",
+  "name" : "verifySignInPageOpen3_ReturnsAndOrdersItem",
+  "time" : {
+    "start" : 1583792692581,
+    "stop" : 1583792695593,
+    "duration" : 3012
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a152c4a18afaa5b6",
+  "name" : "InvalidValues2_EmptyName",
+  "time" : {
+    "start" : 1583792973537,
+    "stop" : 1583792981621,
+    "duration" : 8084
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "f23ff8674153f135",
+  "name" : "InvalidValues5_EmptyReenterPassword",
+  "time" : {
+    "start" : 1583792751856,
+    "stop" : 1583792755576,
+    "duration" : 3720
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "ff2c7b782619e6cc",
+  "name" : "InvalidValues1_AllEmpty",
+  "time" : {
+    "start" : 1583792850981,
+    "stop" : 1583792857688,
+    "duration" : 6707
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "79d04abfcc2345b6",
+  "name" : "verifySignInPageOpen4_SignInSecurelyButton",
+  "time" : {
+    "start" : 1583792695598,
+    "stop" : 1583792698338,
+    "duration" : 2740
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a33d5365d07b2376",
+  "name" : "verifyRegistrationPageOpen1_StartHereLinkOnSignInFlyout",
+  "time" : {
+    "start" : 1583792680379,
+    "stop" : 1583792683172,
+    "duration" : 2793
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44fd00c7bedee027",
+  "name" : "InvalidValues7_InvalidEmail",
+  "time" : {
+    "start" : 1583792759537,
+    "stop" : 1583792763550,
+    "duration" : 4013
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "3b3ac27684ecce5f",
+  "name" : "InvalidValues4_EmptyPassword",
+  "time" : {
+    "start" : 1583792776422,
+    "stop" : 1583792780221,
+    "duration" : 3799
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "6e66d8003c50f526",
+  "name" : "verifyRegistrationPageOpen2_StartHereLinkOnAccountListFlyout",
+  "time" : {
+    "start" : 1583792911962,
+    "stop" : 1583792917702,
+    "duration" : 5740
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a475660be3fe831c",
+  "name" : "verifyRegistrationPageOpen1_StartHereLinkOnSignInFlyout",
+  "time" : {
+    "start" : 1583792903940,
+    "stop" : 1583792911958,
+    "duration" : 8018
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd95199f8eb269bd",
+  "name" : "InvalidValues1_AllEmpty",
+  "time" : {
+    "start" : 1583792736070,
+    "stop" : 1583792740477,
+    "duration" : 4407
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "c37d6e216579179f",
+  "name" : "InvalidValues3_EmptyEmail",
+  "time" : {
+    "start" : 1583792864288,
+    "stop" : 1583792869882,
+    "duration" : 5594
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "2cb4f60f30752c8",
+  "name" : "InvalidValues2_EmptyName",
+  "time" : {
+    "start" : 1583792740483,
+    "stop" : 1583792744382,
+    "duration" : 3899
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "6b271e579fbc392f",
+  "name" : "verifyRegistrationPageOpen2_StartHereLinkOnAccountListFlyout",
+  "time" : {
+    "start" : 1583792804952,
+    "stop" : 1583792810694,
+    "duration" : 5742
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e260e5ef13648c1d",
+  "name" : "verifySignInPageOpen8_ManageYourContentDevicesFooterItem",
+  "time" : {
+    "start" : 1583792960496,
+    "stop" : 1583792965645,
+    "duration" : 5149
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b5d6f4518741c60",
+  "name" : "InvalidValues2_EmptyName",
+  "time" : {
+    "start" : 1583792768488,
+    "stop" : 1583792772512,
+    "duration" : 4024
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "4d412c14d76c10a2",
+  "name" : "verifyRegistrationPageOpen2_StartHereLinkOnAccountListFlyout",
+  "time" : {
+    "start" : 1583792683310,
+    "stop" : 1583792686170,
+    "duration" : 2860
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4a6e81f17801884",
+  "name" : "InvalidValues6_NotMatchPassword",
+  "time" : {
+    "start" : 1583792783762,
+    "stop" : 1583792787405,
+    "duration" : 3643
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "68157559a069b558",
+  "name" : "verifySignInPageOpen6_YourOrdersFooterItem",
+  "time" : {
+    "start" : 1583792836748,
+    "stop" : 1583792841981,
+    "duration" : 5233
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef298b9dbc3384c8",
+  "name" : "verifySignInPageOpen1_SignInButtonOnSignInFlyout",
+  "time" : {
+    "start" : 1583792810699,
+    "stop" : 1583792816414,
+    "duration" : 5715
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ee29496f9c3d09e",
+  "name" : "verifySignInPageOpen6_YourOrdersFooterItem",
+  "time" : {
+    "start" : 1583792701172,
+    "stop" : 1583792703865,
+    "duration" : 2693
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5482b62f6b82b367",
+  "name" : "InvalidValues6_NotMatchPassword",
+  "time" : {
+    "start" : 1583793005814,
+    "stop" : 1583793014153,
+    "duration" : 8339
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "a9310e888df50583",
+  "name" : "verifySignInPageOpen2_SignInButtonOnAccountListFlyout",
+  "time" : {
+    "start" : 1583792689464,
+    "stop" : 1583792692576,
+    "duration" : 3112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d0aa2d6d51e9788",
+  "name" : "verifySignInPageOpen4_SignInSecurelyButton",
+  "time" : {
+    "start" : 1583792938378,
+    "stop" : 1583792944401,
+    "duration" : 6023
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b6d7162dd8e774a",
+  "name" : "InvalidValues7_InvalidEmail",
+  "time" : {
+    "start" : 1583792888238,
+    "stop" : 1583792894792,
+    "duration" : 6554
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "e659680abcee0f10",
+  "name" : "InvalidValues7_InvalidEmail",
+  "time" : {
+    "start" : 1583793014156,
+    "stop" : 1583793022559,
+    "duration" : 8403
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "3296b1d2e56c9e73",
+  "name" : "InvalidValues6_NotMatchPassword",
+  "time" : {
+    "start" : 1583792755579,
+    "stop" : 1583792759532,
+    "duration" : 3953
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "c5778966224c900e",
+  "name" : "verifySignInPageOpen8_ManageYourContentDevicesFooterItem",
+  "time" : {
+    "start" : 1583792706757,
+    "stop" : 1583792710151,
+    "duration" : 3394
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d4940fbfa7e7c59",
+  "name" : "InvalidValues3_EmptyEmail",
+  "time" : {
+    "start" : 1583792717507,
+    "stop" : 1583792721219,
+    "duration" : 3712
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "ad973eaf04203e30",
+  "name" : "verifySignInPageOpen4_SignInSecurelyButton",
+  "time" : {
+    "start" : 1583792826796,
+    "stop" : 1583792832225,
+    "duration" : 5429
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "644b3d74a45d60d6",
+  "name" : "InvalidValues5_EmptyReenterPassword",
+  "time" : {
+    "start" : 1583792997760,
+    "stop" : 1583793005810,
+    "duration" : 8050
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "3069caf91c9288db",
+  "name" : "InvalidValues4_EmptyPassword",
+  "time" : {
+    "start" : 1583792721222,
+    "stop" : 1583792724948,
+    "duration" : 3726
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "a0db7babb05a081a",
+  "name" : "InvalidValues2_EmptyName",
+  "time" : {
+    "start" : 1583792713700,
+    "stop" : 1583792717502,
+    "duration" : 3802
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "d6298be51683d2c6",
+  "name" : "InvalidValues4_EmptyPassword",
+  "time" : {
+    "start" : 1583792989733,
+    "stop" : 1583792997756,
+    "duration" : 8023
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "2a254d86579fa4d7",
+  "name" : "InvalidValues6_NotMatchPassword",
+  "time" : {
+    "start" : 1583792728678,
+    "stop" : 1583792732242,
+    "duration" : 3564
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "e141acedd9aeee5a",
+  "name" : "InvalidValues3_EmptyEmail",
+  "time" : {
+    "start" : 1583792981625,
+    "stop" : 1583792989730,
+    "duration" : 8105
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "b9d6811118395e1f",
+  "name" : "verifySignInPageOpen6_YourOrdersFooterItem",
+  "time" : {
+    "start" : 1583792949795,
+    "stop" : 1583792955041,
+    "duration" : 5246
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa162a708a541c7f",
+  "name" : "InvalidValues7_InvalidEmail",
+  "time" : {
+    "start" : 1583792732250,
+    "stop" : 1583792736065,
+    "duration" : 3815
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "30df3d40b65dc8d",
+  "name" : "InvalidValues1_AllEmpty",
+  "time" : {
+    "start" : 1583792710160,
+    "stop" : 1583792713694,
+    "duration" : 3534
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "a1602fdde3d9f5b3",
+  "name" : "InvalidValues7_InvalidEmail",
+  "time" : {
+    "start" : 1583792787410,
+    "stop" : 1583792791389,
+    "duration" : 3979
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "7fab65a513f56a17",
+  "name" : "verifySignInPageOpen5_SignInPersonalizedButton",
+  "time" : {
+    "start" : 1583792698346,
+    "stop" : 1583792701168,
+    "duration" : 2822
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7df0da879c94cb61",
+  "name" : "verifySignInPageOpen8_ManageYourContentDevicesFooterItem",
+  "time" : {
+    "start" : 1583792845506,
+    "stop" : 1583792850976,
+    "duration" : 5470
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72b2e2a0fbb7663",
+  "name" : "verifySignInPageOpen1_SignInButtonOnSignInFlyout",
+  "time" : {
+    "start" : 1583792686180,
+    "stop" : 1583792689457,
+    "duration" : 3277
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fb7d33d34e8f05b",
+  "name" : "verifySignInPageOpen1_SignInButtonOnSignInFlyout",
+  "time" : {
+    "start" : 1583792917706,
+    "stop" : 1583792926240,
+    "duration" : 8534
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "768f1af868f1c28f",
+  "name" : "verifySignInPageOpen3_ReturnsAndOrdersItem",
+  "time" : {
+    "start" : 1583792932235,
+    "stop" : 1583792938373,
+    "duration" : 6138
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "deb4695b41d92602",
+  "name" : "InvalidValues3_EmptyEmail",
+  "time" : {
+    "start" : 1583792772516,
+    "stop" : 1583792776419,
+    "duration" : 3903
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "1fac9ecac8cfec71",
+  "name" : "verifySignInPageOpen5_SignInPersonalizedButton",
+  "time" : {
+    "start" : 1583792944404,
+    "stop" : 1583792949789,
+    "duration" : 5385
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "735699dfc81a7e20",
+  "name" : "InvalidValues6_NotMatchPassword",
+  "time" : {
+    "start" : 1583792882367,
+    "stop" : 1583792888234,
+    "duration" : 5867
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "97a8dcdd65d54a20",
+  "name" : "verifySignInPageOpen3_ReturnsAndOrdersItem",
+  "time" : {
+    "start" : 1583792822440,
+    "stop" : 1583792826792,
+    "duration" : 4352
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f307ab794796dbea",
+  "name" : "InvalidValues4_EmptyPassword",
+  "time" : {
+    "start" : 1583792869888,
+    "stop" : 1583792875702,
+    "duration" : 5814
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "c0ff8d3986d8b9ea",
+  "name" : "verifySignInPageOpen7_ReturnsReplacementsFooterItem",
+  "time" : {
+    "start" : 1583792703870,
+    "stop" : 1583792706754,
+    "duration" : 2884
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9dfd6d5e3a1190c7",
+  "name" : "InvalidValues5_EmptyReenterPassword",
+  "time" : {
+    "start" : 1583792875706,
+    "stop" : 1583792882364,
+    "duration" : 6658
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "9b703c896b1053a7",
+  "name" : "verifySignInPageOpen2_SignInButtonOnAccountListFlyout",
+  "time" : {
+    "start" : 1583792816420,
+    "stop" : 1583792822434,
+    "duration" : 6014
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "696b04a34bce0701",
+  "name" : "InvalidValues4_EmptyPassword",
+  "time" : {
+    "start" : 1583792747995,
+    "stop" : 1583792751852,
+    "duration" : 3857
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "924b60d35667867d",
+  "name" : "InvalidValues5_EmptyReenterPassword",
+  "time" : {
+    "start" : 1583792780226,
+    "stop" : 1583792783758,
+    "duration" : 3532
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "c44abae6b81f6369",
+  "name" : "verifySignInPageOpen7_ReturnsReplacementsFooterItem",
+  "time" : {
+    "start" : 1583792955044,
+    "stop" : 1583792960492,
+    "duration" : 5448
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

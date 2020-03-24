@@ -1,0 +1,273 @@
+{
+  "uid" : "a475660be3fe831c",
+  "name" : "verifyRegistrationPageOpen1_StartHereLinkOnSignInFlyout",
+  "fullName" : "modules.homepage.NavigateToRegistrationPageTest.verifyRegistrationPageOpen1_StartHereLinkOnSignInFlyout",
+  "historyId" : "e2e2834bfdc4b893b3a82e540ac5c6b5",
+  "time" : {
+    "start" : 1583792903940,
+    "stop" : 1583792911958,
+    "duration" : 8018
+  },
+  "description" : "RE01_Verify the Registration page opens after clicking on the Start Here link of the Sign In fly out",
+  "descriptionHtml" : "<p>RE01_Verify the Registration page opens after clicking on the Start Here link of the Sign In fly out</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1583792897705,
+      "stop" : 1583792903936,
+      "duration" : 6231
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Launch the browser and navigate to the Home page",
+      "time" : {
+        "start" : 1583792897705,
+        "stop" : 1583792903936,
+        "duration" : 6231
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "browser",
+        "value" : "edge"
+      }, {
+        "name" : "url",
+        "value" : "https://www.amazon.com/"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "RE01_Verify the Registration page opens after clicking on the Start Here link of the Sign In fly out",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to the Sign In/Registration page from the Home page",
+      "time" : {
+        "start" : 1583792903940,
+        "stop" : 1583792911377,
+        "duration" : 7437
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verify the page title",
+        "time" : {
+          "start" : 1583792903940,
+          "stop" : 1583792904090,
+          "duration" : 150
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "expectedTitle",
+          "value" : "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "location",
+        "value" : "SignInFlyout"
+      }, {
+        "name" : "signInOrRegister",
+        "value" : "Register"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Check the page title and the text exist",
+      "time" : {
+        "start" : 1583792911377,
+        "stop" : 1583792911958,
+        "duration" : 581
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verify the text value",
+        "time" : {
+          "start" : 1583792911377,
+          "stop" : 1583792911954,
+          "duration" : 577
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "ele",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (548770fd0c51bd1cc707d9a5e656a20c)] -> css selector: h1.a-spacing-small]"
+        }, {
+          "name" : "expectedText",
+          "value" : "Create account"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Verify the page title",
+        "time" : {
+          "start" : 1583792911955,
+          "stop" : 1583792911958,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "expectedTitle",
+          "value" : "Amazon Registration"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedTitle",
+        "value" : "Amazon Registration"
+      }, {
+        "name" : "textEle",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (548770fd0c51bd1cc707d9a5e656a20c)] -> css selector: h1.a-spacing-small]"
+      }, {
+        "name" : "expectedText",
+        "value" : "Create account"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "clear",
+    "time" : {
+      "start" : 1583792911959,
+      "stop" : 1583792911959,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1583793022562,
+      "stop" : 1583793023010,
+      "duration" : 448
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Close the browser",
+      "time" : {
+        "start" : 1583793022562,
+        "stop" : 1583793023010,
+        "duration" : 448
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "modules.homepage.NavigateToRegistrationPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "modules.homepage.NavigateToRegistrationPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyRegistrationPageOpen1_StartHereLinkOnSignInFlyout"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Edge"
+  }, {
+    "name" : "subSuite",
+    "value" : "modules.homepage.NavigateToRegistrationPageTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4P5DUP2"
+  }, {
+    "name" : "thread",
+    "value" : "20944@DESKTOP-4P5DUP2.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Verify the navigation to the Registration page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "edge"
+  }, {
+    "name" : "url",
+    "value" : "https://www.amazon.com/"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a475660be3fe831c.json",
+  "parameterValues" : [ "edge", "https://www.amazon.com/" ]
+}

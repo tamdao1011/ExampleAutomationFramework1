@@ -1,0 +1,228 @@
+{
+  "uid" : "924b60d35667867d",
+  "name" : "InvalidValues5_EmptyReenterPassword",
+  "fullName" : "modules.registration.RegistrationTest_Excel.InvalidValues5_EmptyReenterPassword",
+  "historyId" : "c98cafe8d73731df7ca6a0cc6cfd5bd3",
+  "time" : {
+    "start" : 1583792780226,
+    "stop" : 1583792783758,
+    "duration" : 3532
+  },
+  "description" : "RF05_Verify the invalid input - empty re-enter password",
+  "descriptionHtml" : "<p>RF05_Verify the invalid input - empty re-enter password</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1583792666776,
+      "stop" : 1583792680232,
+      "duration" : 13456
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Launch the browser and navigate to the Home page",
+      "time" : {
+        "start" : 1583792666813,
+        "stop" : 1583792680227,
+        "duration" : 13414
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "browser",
+        "value" : "chrome"
+      }, {
+        "name" : "url",
+        "value" : "https://www.amazon.com/"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "RF05_Verify the invalid input - empty re-enter password",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to the Sign In/Registration page from the Home page",
+      "time" : {
+        "start" : 1583792780227,
+        "stop" : 1583792782728,
+        "duration" : 2501
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verify the page title",
+        "time" : {
+          "start" : 1583792780227,
+          "stop" : 1583792780236,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "expectedTitle",
+          "value" : "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "location",
+        "value" : "AccountListFlyout"
+      }, {
+        "name" : "signInOrRegister",
+        "value" : "Register"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify the warning messages exist",
+      "time" : {
+        "start" : 1583792783734,
+        "stop" : 1583792783758,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "warningElement",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (548770fd0c51bd1cc707d9a5e656a20c)] -> xpath: //div[contains (text(), \"Type your password again\")]]"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "clear",
+    "time" : {
+      "start" : 1583792783760,
+      "stop" : 1583792783760,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1583792791392,
+      "stop" : 1583792792129,
+      "duration" : 737
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Close the browser",
+      "time" : {
+        "start" : 1583792791392,
+        "stop" : 1583792792129,
+        "duration" : 737
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "modules.registration.RegistrationTest_Excel"
+  }, {
+    "name" : "testClass",
+    "value" : "modules.registration.RegistrationTest_Excel"
+  }, {
+    "name" : "testMethod",
+    "value" : "InvalidValues5_EmptyReenterPassword"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Chrome"
+  }, {
+    "name" : "subSuite",
+    "value" : "modules.registration.RegistrationTest_Excel"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4P5DUP2"
+  }, {
+    "name" : "thread",
+    "value" : "20944@DESKTOP-4P5DUP2.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Verify the Registration function"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  }, {
+    "name" : "url",
+    "value" : "https://www.amazon.com/"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "924b60d35667867d.json",
+  "parameterValues" : [ "chrome", "https://www.amazon.com/" ]
+}

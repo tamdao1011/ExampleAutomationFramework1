@@ -1,0 +1,273 @@
+{
+  "uid" : "7fab65a513f56a17",
+  "name" : "verifySignInPageOpen5_SignInPersonalizedButton",
+  "fullName" : "modules.homepage.NavigateToSignInPageTest.verifySignInPageOpen5_SignInPersonalizedButton",
+  "historyId" : "f9b7a02a7a4d7c87870a97eabc2e6ce3",
+  "time" : {
+    "start" : 1583792698346,
+    "stop" : 1583792701168,
+    "duration" : 2822
+  },
+  "description" : "SI05_Verify the Sign In page opens after clicking on the Sign In To See Personalized Recommendations button",
+  "descriptionHtml" : "<p>SI05_Verify the Sign In page opens after clicking on the Sign In To See Personalized Recommendations button</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1583792666776,
+      "stop" : 1583792680232,
+      "duration" : 13456
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Launch the browser and navigate to the Home page",
+      "time" : {
+        "start" : 1583792666813,
+        "stop" : 1583792680227,
+        "duration" : 13414
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "browser",
+        "value" : "chrome"
+      }, {
+        "name" : "url",
+        "value" : "https://www.amazon.com/"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "SI05_Verify the Sign In page opens after clicking on the Sign In To See Personalized Recommendations button",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to the Sign In/Registration page from the Home page",
+      "time" : {
+        "start" : 1583792698346,
+        "stop" : 1583792701117,
+        "duration" : 2771
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verify the page title",
+        "time" : {
+          "start" : 1583792698346,
+          "stop" : 1583792698354,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "expectedTitle",
+          "value" : "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "location",
+        "value" : "SignInPersonalizedButton"
+      }, {
+        "name" : "signInOrRegister",
+        "value" : "null"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Check the page title and the text exist",
+      "time" : {
+        "start" : 1583792701117,
+        "stop" : 1583792701168,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verify the text value",
+        "time" : {
+          "start" : 1583792701117,
+          "stop" : 1583792701158,
+          "duration" : 41
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "ele",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (548770fd0c51bd1cc707d9a5e656a20c)] -> css selector: h1.a-spacing-small]"
+        }, {
+          "name" : "expectedText",
+          "value" : "Sign-In"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Verify the page title",
+        "time" : {
+          "start" : 1583792701158,
+          "stop" : 1583792701168,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "expectedTitle",
+          "value" : "Amazon Sign-In"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedTitle",
+        "value" : "Amazon Sign-In"
+      }, {
+        "name" : "textEle",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (548770fd0c51bd1cc707d9a5e656a20c)] -> css selector: h1.a-spacing-small]"
+      }, {
+        "name" : "expectedText",
+        "value" : "Sign-In"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1583792791392,
+      "stop" : 1583792792129,
+      "duration" : 737
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Close the browser",
+      "time" : {
+        "start" : 1583792791392,
+        "stop" : 1583792792129,
+        "duration" : 737
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "clear",
+    "time" : {
+      "start" : 1583792701170,
+      "stop" : 1583792701170,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "modules.homepage.NavigateToSignInPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "modules.homepage.NavigateToSignInPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifySignInPageOpen5_SignInPersonalizedButton"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Chrome"
+  }, {
+    "name" : "subSuite",
+    "value" : "modules.homepage.NavigateToSignInPageTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4P5DUP2"
+  }, {
+    "name" : "thread",
+    "value" : "20944@DESKTOP-4P5DUP2.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Verify the navigation to Sign In page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  }, {
+    "name" : "url",
+    "value" : "https://www.amazon.com/"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7fab65a513f56a17.json",
+  "parameterValues" : [ "chrome", "https://www.amazon.com/" ]
+}
