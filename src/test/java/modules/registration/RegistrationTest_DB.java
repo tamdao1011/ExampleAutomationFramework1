@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import pages.HomePage;
 import core.TestBase;
 
-import static database.SQLConnector.query;
+import static database.SQLQuery.getDataFromRegistrationInvalidTable;
 import static pages.HomePage.navigateToSignInOrRegistrationPageFromHomePage;
 import static pages.RegistrationPage.*;
 
@@ -81,11 +81,12 @@ public class RegistrationTest_DB extends TestBase {
 
     private void createAccountFromDB(String valueType) {
         navigateToSignInOrRegistrationPageFromHomePage(HomePage.location.AccountListFlyout, HomePage.signInOrRegister.Register);
-        String[] valueArray = query(valueType);
+        String[] valueArray = getDataFromRegistrationInvalidTable(valueType);
         for (int i = 0; i < valueArray.length; i++) {
             if (valueArray[i] == null)
                 valueArray[i] = "";
         }
         createAccount_InputInfo(valueArray[0], valueArray[1], valueArray[2], valueArray[3]);
     }
+
 }
