@@ -8,7 +8,7 @@ import core.TestBase;
 import org.testng.annotations.Test;
 import pages.HomePage;
 
-import static excel.ReadExcel.getDataFromExcel;
+import static excel.ReadExcel.getDataFromRegistrationInvalidTable;
 import static pages.HomePage.navigateToSignInOrRegistrationPageFromHomePage;
 import static pages.RegistrationPage.*;
 
@@ -81,7 +81,7 @@ public class RegistrationTest_Excel extends TestBase {
 
     private void createAccountFromExcel(String valueType) {
         navigateToSignInOrRegistrationPageFromHomePage(HomePage.location.AccountListFlyout, HomePage.signInOrRegister.Register);
-        String[] valueArray = getDataFromExcel(valueType);
+        String[] valueArray = getDataFromRegistrationInvalidTable(valueType);
         createAccount_InputInfo(valueArray[0], valueArray[1], valueArray[2], valueArray[3]);
     }
 
